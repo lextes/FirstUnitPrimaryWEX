@@ -1,6 +1,6 @@
 # FirstUnitPrimaryWEX
 
 #Primera app oficial del Colegio Wexford.
-Se considera First Unit Primary, y en este repositorio está alojada la esta primera unidad. Es la versión beta de la app. 
+Considerada la First Unit Primary y en este repositorio está alojada la primera unidad. Es la versión beta de la app. 
 
 
