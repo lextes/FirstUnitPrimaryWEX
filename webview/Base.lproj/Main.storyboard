@@ -2418,10 +2418,10 @@
             </objects>
             <point key="canvasLocation" x="3330" y="1588"/>
         </scene>
-        <!--View Controller-->
+        <!--Draw View Controller-->
         <scene sceneID="OE7-Jk-UmC">
             <objects>
-                <viewController id="XLh-MM-wTI" sceneMemberID="viewController">
+                <viewController id="XLh-MM-wTI" customClass="DrawViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xxE-bW-Dgg"/>
                         <viewControllerLayoutGuide type="bottom" id="Asz-tT-8IX"/>
@@ -2519,10 +2519,6 @@
                                     <action selector="colorsPicked:" destination="zDe-3E-P9X" eventType="touchUpInside" id="osz-MH-Pix"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="inRepair" translatesAutoresizingMaskIntoConstraints="NO" id="HP2-Kt-RdZ">
-                                <rect key="frame" x="167" y="340" width="402" height="317"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jR1-im-ldW">
                                 <rect key="frame" x="518" y="917" width="191" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2531,13 +2527,17 @@
                                     <segue destination="k7g-n2-Jms" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Dni-mZ-ywq"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1YC-6Z-hgP">
+                                <rect key="frame" x="16" y="84" width="732" height="825"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vbC-tg-Zfl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4013" y="1591"/>
+            <point key="canvasLocation" x="4012.5" y="1590.8203125"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="b8I-7V-0Lt">
