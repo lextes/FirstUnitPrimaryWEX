@@ -2410,13 +2410,17 @@
                                     <segue destination="XLh-MM-wTI" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="fWU-es-T0q"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="inRepair" translatesAutoresizingMaskIntoConstraints="NO" id="FM7-Jk-8au">
+                                <rect key="frame" x="153" y="281" width="475" height="329"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1m1-bb-3Qg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3330" y="1588"/>
+            <point key="canvasLocation" x="3329.6875" y="1587.890625"/>
         </scene>
         <!--Draw View Controller-->
         <scene sceneID="OE7-Jk-UmC">
@@ -2529,6 +2533,10 @@
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1YC-6Z-hgP">
                                 <rect key="frame" x="16" y="84" width="732" height="825"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="inRepair" translatesAutoresizingMaskIntoConstraints="NO" id="eza-cO-aVi">
+                                <rect key="frame" x="117" y="272" width="475" height="329"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
