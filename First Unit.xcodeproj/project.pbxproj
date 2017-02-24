@@ -121,9 +121,6 @@
 				84F0DC8B1E58233600B8D2F8 /* Animated */,
 				84B0CA231E535AAB0011E552 /* sounds */,
 				84E02C361E5040C0006C3044 /* dinamics */,
-				84E02C141E4FEB63006C3044 /* history */,
-				84E02C131E4FEB4D006C3044 /* social studies */,
-				84E02C121E4FEB3E006C3044 /* science */,
 				84A6CB231E458C240084C8E5 /* AppDelegate.swift */,
 				84A6CB251E458C240084C8E5 /* ViewController.swift */,
 				84A6CB271E458C240084C8E5 /* Main.storyboard */,
@@ -159,27 +156,6 @@
 				84BBEE001E5CAE120094E162 /* AVKit.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		84E02C121E4FEB3E006C3044 /* science */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = science;
-			sourceTree = "<group>";
-		};
-		84E02C131E4FEB4D006C3044 /* social studies */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "social studies";
-			sourceTree = "<group>";
-		};
-		84E02C141E4FEB63006C3044 /* history */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = history;
 			sourceTree = "<group>";
 		};
 		84E02C361E5040C0006C3044 /* dinamics */ = {
