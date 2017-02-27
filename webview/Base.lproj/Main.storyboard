@@ -1499,7 +1499,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="Jbk-va-Bkw" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="Kle-Kc-4wa"/>
+                                    <segue destination="Jbk-va-Bkw" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Kle-Kc-4wa"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YED-kV-Iv5">
@@ -1550,7 +1550,7 @@
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
                                     <action selector="stopPlay:" destination="Jbk-va-Bkw" eventType="touchUpInside" id="ge8-S0-LEw"/>
-                                    <segue destination="dtw-Uh-sfa" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="TEK-e8-UBk"/>
+                                    <segue destination="dtw-Uh-sfa" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="TEK-e8-UBk"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0sP-on-4nh">
@@ -1607,7 +1607,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="zDe-3E-P9X" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="Be4-Xh-X0P"/>
+                                    <segue destination="zDe-3E-P9X" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Be4-Xh-X0P"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="olL-p3-EUk">
@@ -1753,7 +1753,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="kef-Li-oDm" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="dVJ-Vd-YY3"/>
+                                    <segue destination="kef-Li-oDm" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="dVJ-Vd-YY3"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1788,7 +1788,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="2Fx-ht-CNA" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="98Q-z0-wae"/>
+                                    <segue destination="2Fx-ht-CNA" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="98Q-z0-wae"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tree" translatesAutoresizingMaskIntoConstraints="NO" id="5ya-7h-XjW">
@@ -1956,7 +1956,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="bP6-Qn-dpV" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="ZTe-z0-iVF"/>
+                                    <segue destination="bP6-Qn-dpV" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="ZTe-z0-iVF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V92-U9-lDn">
@@ -1968,7 +1968,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="eO5-ir-yeT" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="ipM-zM-f61"/>
+                                    <segue destination="eO5-ir-yeT" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="ipM-zM-f61"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lnz-tt-GuK">
@@ -1980,7 +1980,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="xQX-Bf-RcM" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="TxC-hg-eEO"/>
+                                    <segue destination="xQX-Bf-RcM" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="TxC-hg-eEO"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kuy-GQ-ouX">
@@ -1992,7 +1992,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="h1T-Er-Gzy" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="c1H-CL-bbf"/>
+                                    <segue destination="h1T-Er-Gzy" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="c1H-CL-bbf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zrZ-xd-V5c">
@@ -2004,7 +2004,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Ydb-86-InO" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="y2w-sd-PCw"/>
+                                    <segue destination="Ydb-86-InO" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="y2w-sd-PCw"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2068,7 +2068,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="Rq8-13-4uF" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="Ggg-3w-lHs"/>
+                                    <segue destination="Rq8-13-4uF" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Ggg-3w-lHs"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EbD-1C-F99">
@@ -2116,7 +2116,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="e06-EQ-A4d" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="QBS-lf-SYT"/>
+                                    <segue destination="e06-EQ-A4d" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="QBS-lf-SYT"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eCB-06-GoW">
@@ -2139,9 +2139,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <mutableString key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
                                         <attributes>
-                                            <color key="NSColor" red="0.71574519230769229" green="0.1107555650350099" blue="0.5781028989657544" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="NSColor" red="0.71764705882352942" green="0.10980392156862745" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
                                             <font key="NSFont" metaFont="menu" size="14"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" lineHeightMultiple="1.2" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -2350,7 +2350,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="q5H-lK-eGg" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="O90-x6-Qpg"/>
+                                    <segue destination="q5H-lK-eGg" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="O90-x6-Qpg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="16o-dV-et1">
@@ -2386,10 +2386,10 @@
             </objects>
             <point key="canvasLocation" x="2660.9375" y="1590.8203125"/>
         </scene>
-        <!--View Controller-->
+        <!--Text3 View Controller-->
         <scene sceneID="By8-gi-8MD">
             <objects>
-                <viewController id="q5H-lK-eGg" sceneMemberID="viewController">
+                <viewController id="q5H-lK-eGg" customClass="Text3ViewController" customModule="First_Unit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="SwA-hH-SrM"/>
                         <viewControllerLayoutGuide type="bottom" id="FBk-uk-CRx"/>
@@ -2407,25 +2407,55 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="XLh-MM-wTI" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="fWU-es-T0q"/>
+                                    <segue destination="XLh-MM-wTI" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="fWU-es-T0q"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="inRepair" translatesAutoresizingMaskIntoConstraints="NO" id="FM7-Jk-8au">
-                                <rect key="frame" x="153" y="281" width="475" height="329"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zo3-MR-mlp">
+                                <rect key="frame" x="93" y="470" width="592" height="134"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.71764705882352942" green="0.10980392156862745" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" metaFont="menu" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" lineHeightMultiple="1.2" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xcD-BU-jq9">
+                                <rect key="frame" x="88" y="667" width="592" height="216"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.71764705882352942" green="0.10980392156862745" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" metaFont="menu" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" lineHeightMultiple="1.2" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="myText" destination="Zo3-MR-mlp" id="6Tp-XB-PUk"/>
+                        <outlet property="myText2" destination="xcD-BU-jq9" id="xEw-XS-dAt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1m1-bb-3Qg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3329.6875" y="1587.890625"/>
         </scene>
-        <!--Draw View Controller-->
+        <!--Draw2 View Controller-->
         <scene sceneID="OE7-Jk-UmC">
             <objects>
-                <viewController id="XLh-MM-wTI" customClass="DrawViewController" sceneMemberID="viewController">
+                <viewController id="XLh-MM-wTI" customClass="Draw2ViewController" customModule="First_Unit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xxE-bW-Dgg"/>
                         <viewControllerLayoutGuide type="bottom" id="Asz-tT-8IX"/>
@@ -2445,6 +2475,7 @@
                                 <connections>
                                     <action selector="reset:" destination="bP6-Qn-dpV" eventType="touchUpInside" id="1jc-aw-xwh"/>
                                     <action selector="reset:" destination="zDe-3E-P9X" eventType="touchUpInside" id="8kE-3T-LKS"/>
+                                    <action selector="reset:" destination="XLh-MM-wTI" eventType="touchUpInside" id="XWx-L9-OI7"/>
                                     <action selector="reset:" destination="e06-EQ-A4d" eventType="touchUpInside" id="g2Q-bF-1rM"/>
                                     <action selector="reset:" destination="1gM-8s-jhD" eventType="touchUpInside" id="iEZ-Wz-4H3"/>
                                     <action selector="reset:" destination="oxy-aR-ORp" eventType="touchUpInside" id="xaU-Ym-DMi"/>
@@ -2458,6 +2489,7 @@
                                 <connections>
                                     <action selector="colorsPicked:" destination="zDe-3E-P9X" eventType="touchUpInside" id="NxH-eX-Lhm"/>
                                     <action selector="colorsPicked:" destination="e06-EQ-A4d" eventType="touchUpInside" id="fEC-t0-8Em"/>
+                                    <action selector="colorsPicked:" destination="XLh-MM-wTI" eventType="touchUpInside" id="i1c-eF-eUw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g3T-TQ-jyA">
@@ -2466,6 +2498,7 @@
                                 <state key="normal" image="green"/>
                                 <connections>
                                     <action selector="colorsPicked:" destination="zDe-3E-P9X" eventType="touchUpInside" id="F5p-6E-dYW"/>
+                                    <action selector="colorsPicked:" destination="XLh-MM-wTI" eventType="touchUpInside" id="G7s-fE-Aw4"/>
                                     <action selector="colorsPicked:" destination="e06-EQ-A4d" eventType="touchUpInside" id="iEb-Ad-45P"/>
                                 </connections>
                             </button>
@@ -2474,6 +2507,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="blue"/>
                                 <connections>
+                                    <action selector="colorsPicked:" destination="XLh-MM-wTI" eventType="touchUpInside" id="Xz4-aG-koO"/>
                                     <action selector="colorsPicked:" destination="zDe-3E-P9X" eventType="touchUpInside" id="eUp-f6-1jG"/>
                                     <action selector="colorsPicked:" destination="e06-EQ-A4d" eventType="touchUpInside" id="iDb-TN-RRN"/>
                                 </connections>
@@ -2483,6 +2517,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="pink"/>
                                 <connections>
+                                    <action selector="colorsPicked:" destination="XLh-MM-wTI" eventType="touchUpInside" id="Fsu-dY-slR"/>
                                     <action selector="colorsPicked:" destination="zDe-3E-P9X" eventType="touchUpInside" id="Sgb-XV-TKD"/>
                                     <action selector="colorsPicked:" destination="e06-EQ-A4d" eventType="touchUpInside" id="qmZ-eG-Qou"/>
                                 </connections>
@@ -2492,6 +2527,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="yellow"/>
                                 <connections>
+                                    <action selector="colorsPicked:" destination="XLh-MM-wTI" eventType="touchUpInside" id="abg-Ye-lxn"/>
                                     <action selector="colorsPicked:" destination="e06-EQ-A4d" eventType="touchUpInside" id="dx1-jr-tXh"/>
                                     <action selector="colorsPicked:" destination="zDe-3E-P9X" eventType="touchUpInside" id="lhe-Xz-HZb"/>
                                 </connections>
@@ -2501,6 +2537,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="teal"/>
                                 <connections>
+                                    <action selector="colorsPicked:" destination="XLh-MM-wTI" eventType="touchUpInside" id="7qW-wz-dB0"/>
                                     <action selector="colorsPicked:" destination="e06-EQ-A4d" eventType="touchUpInside" id="wHp-FM-ETU"/>
                                     <action selector="colorsPicked:" destination="zDe-3E-P9X" eventType="touchUpInside" id="yZJ-Ii-tfH"/>
                                 </connections>
@@ -2510,6 +2547,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="white"/>
                                 <connections>
+                                    <action selector="colorsPicked:" destination="XLh-MM-wTI" eventType="touchUpInside" id="uZw-o7-2zX"/>
                                     <action selector="colorsPicked:" destination="e06-EQ-A4d" eventType="touchUpInside" id="vcC-9z-fMr"/>
                                     <action selector="colorsPicked:" destination="zDe-3E-P9X" eventType="touchUpInside" id="wcv-6X-3Jx"/>
                                 </connections>
@@ -2519,6 +2557,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="black"/>
                                 <connections>
+                                    <action selector="colorsPicked:" destination="XLh-MM-wTI" eventType="touchUpInside" id="5Ou-k0-CFQ"/>
                                     <action selector="colorsPicked:" destination="e06-EQ-A4d" eventType="touchUpInside" id="mJH-gy-C3p"/>
                                     <action selector="colorsPicked:" destination="zDe-3E-P9X" eventType="touchUpInside" id="osz-MH-Pix"/>
                                 </connections>
@@ -2532,16 +2571,57 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1YC-6Z-hgP">
-                                <rect key="frame" x="16" y="84" width="732" height="825"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="inRepair" translatesAutoresizingMaskIntoConstraints="NO" id="eza-cO-aVi">
-                                <rect key="frame" x="117" y="272" width="475" height="329"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v0M-ly-fW1">
+                                <rect key="frame" x="350" y="665" width="172" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <color key="textColor" red="0.71764705880000002" green="0.10980392160000001" blue="0.57647058819999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="25"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8DB-s6-cg6">
+                                <rect key="frame" x="496" y="703" width="172" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.71764705880000002" green="0.10980392160000001" blue="0.57647058819999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="25"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o1R-RE-UlE">
+                                <rect key="frame" x="463" y="564" width="205" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.71764705880000002" green="0.10980392160000001" blue="0.57647058819999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="25"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hyP-5E-vRT">
+                                <rect key="frame" x="350" y="526" width="172" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.71764705880000002" green="0.10980392160000001" blue="0.57647058819999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="25"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Le9-7g-4g9">
+                                <rect key="frame" x="463" y="425" width="205" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.71764705880000002" green="0.10980392160000001" blue="0.57647058819999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="25"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5EP-WP-FOf">
+                                <rect key="frame" x="350" y="387" width="172" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.71764705880000002" green="0.10980392160000001" blue="0.57647058819999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="25"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="1YC-6Z-hgP" id="Kx8-KW-PFl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vbC-tg-Zfl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2579,10 +2659,10 @@
             </objects>
             <point key="canvasLocation" x="4695" y="1591"/>
         </scene>
-        <!--View Controller-->
+        <!--Text3 View Controller-->
         <scene sceneID="Jqp-l4-jHj">
             <objects>
-                <viewController id="h1T-Er-Gzy" sceneMemberID="viewController">
+                <viewController id="h1T-Er-Gzy" customClass="Text3ViewController" customModule="First_Unit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Gni-ee-BcB"/>
                         <viewControllerLayoutGuide type="bottom" id="dGe-nu-456"/>
@@ -2600,16 +2680,17 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="dhs-VU-kOc" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="PA9-p7-vlT"/>
+                                    <segue destination="dhs-VU-kOc" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="PA9-p7-vlT"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nVX-gk-0B8">
-                                <rect key="frame" x="382" y="801" width="293" height="105"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s1L-aK-g14">
+                                <rect key="frame" x="389" y="808" width="291" height="91"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Lorem">
+                                    <fragment>
+                                        <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                         <attributes>
-                                            <color key="NSColor" red="0.71574519230769229" green="0.1107555650350099" blue="0.5781028989657544" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="NSColor" red="0.71764705882352942" green="0.10980392156862745" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
                                             <font key="NSFont" metaFont="menu" size="14"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" lineHeightMultiple="1.2" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -2617,13 +2698,14 @@
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oLH-70-IeN">
-                                <rect key="frame" x="382" y="732" width="293" height="51"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wnn-gI-Z7T">
+                                <rect key="frame" x="389" y="733" width="291" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Lorem">
+                                    <fragment>
+                                        <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                         <attributes>
-                                            <color key="NSColor" red="0.71574519230769229" green="0.1107555650350099" blue="0.5781028989657544" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="NSColor" red="0.71764705882352942" green="0.10980392156862745" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
                                             <font key="NSFont" metaFont="menu" size="14"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" lineHeightMultiple="1.2" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -2634,15 +2716,19 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="myText" destination="wnn-gI-Z7T" id="u7a-TC-0Om"/>
+                        <outlet property="myText2" destination="s1L-aK-g14" id="5NO-vj-S9t"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="grc-Sf-hXz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2675.78125" y="2300.9765625"/>
         </scene>
-        <!--View Controller-->
+        <!--Text3A View Controller-->
         <scene sceneID="Aj6-gM-teA">
             <objects>
-                <viewController id="dhs-VU-kOc" sceneMemberID="viewController">
+                <viewController id="dhs-VU-kOc" customClass="Text3AViewController" customModule="First_Unit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TmK-Tl-dV0"/>
                         <viewControllerLayoutGuide type="bottom" id="5kR-51-mZc"/>
@@ -2660,7 +2746,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="YnM-ga-Izg" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="sFV-km-pu7"/>
+                                    <segue destination="YnM-ga-Izg" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="sFV-km-pu7"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zun-OB-GLy">
@@ -2681,9 +2767,59 @@
                                 <attributedString key="attributedText"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OyZ-dT-Et5">
+                                <rect key="frame" x="72" y="133" width="609" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.71764705882352942" green="0.10980392156862745" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" metaFont="menu" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" lineHeightMultiple="1.2" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XE3-YK-SGo">
+                                <rect key="frame" x="74" y="261" width="609" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.71764705882352942" green="0.10980392156862745" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" metaFont="menu" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" lineHeightMultiple="1.2" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HFT-W3-ObP">
+                                <rect key="frame" x="74" y="359" width="609" height="193"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.71764705882352942" green="0.10980392156862745" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" metaFont="menu" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" lineHeightMultiple="1.2" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="Text" destination="OyZ-dT-Et5" id="Wwm-L7-Qwn"/>
+                        <outlet property="Text2" destination="XE3-YK-SGo" id="iY3-le-XDD"/>
+                        <outlet property="Text3" destination="HFT-W3-ObP" id="l6p-XX-SHA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XDo-5k-oZH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2710,7 +2846,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="fmb-b6-OEP" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="waR-IN-3Xk"/>
+                                    <segue destination="fmb-b6-OEP" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="waR-IN-3Xk"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2753,10 +2889,10 @@
             </objects>
             <point key="canvasLocation" x="6097" y="2297"/>
         </scene>
-        <!--View Controller-->
+        <!--Text3 View Controller-->
         <scene sceneID="RiS-Kb-Q37">
             <objects>
-                <viewController id="fmb-b6-OEP" sceneMemberID="viewController">
+                <viewController id="fmb-b6-OEP" customClass="Text3ViewController" customModule="First_Unit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="BTn-63-9ag"/>
                         <viewControllerLayoutGuide type="bottom" id="hSr-qb-yFU"/>
@@ -2769,12 +2905,27 @@
                                 <rect key="frame" x="-21" y="-25" width="789" height="1080"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MXA-LG-QPQ">
+                                <rect key="frame" x="80" y="356" width="592" height="174"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.71764705882352942" green="0.10980392156862745" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" metaFont="menu" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" lineHeightMultiple="1.2" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yjG-Y6-8Ge">
                                 <rect key="frame" x="289" y="923" width="191" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="NSz-xo-em2" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="JSa-AH-FBB"/>
+                                    <segue destination="NSz-xo-em2" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="JSa-AH-FBB"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ekl-8t-1y3">
@@ -2783,15 +2934,28 @@
                                 <attributedString key="attributedText"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zoA-Xi-xRf">
-                                <rect key="frame" x="75" y="356" width="597" height="174"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vXh-PW-3jp">
+                                <rect key="frame" x="75" y="614" width="592" height="174"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.71764705882352942" green="0.10980392156862745" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" metaFont="menu" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" lineHeightMultiple="1.2" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="myText" destination="MXA-LG-QPQ" id="aMg-ok-gmp"/>
+                        <outlet property="myText2" destination="vXh-PW-3jp" id="D9e-8G-O2q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nAL-xj-hAJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2882,7 +3046,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="KZm-gt-UGW" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="Zb6-kH-AGa"/>
+                                    <segue destination="KZm-gt-UGW" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Zb6-kH-AGa"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2893,10 +3057,10 @@
             </objects>
             <point key="canvasLocation" x="2677.34375" y="2997.65625"/>
         </scene>
-        <!--View Controller-->
+        <!--Text3 View Controller-->
         <scene sceneID="8xt-NH-awt">
             <objects>
-                <viewController id="KZm-gt-UGW" sceneMemberID="viewController">
+                <viewController id="KZm-gt-UGW" customClass="Text3ViewController" customModule="First_Unit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="G24-HT-7Uc"/>
                         <viewControllerLayoutGuide type="bottom" id="wq3-fg-AR8"/>
@@ -2909,6 +3073,21 @@
                                 <rect key="frame" x="-19" y="20" width="812" height="1004"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e23-FB-g5d">
+                                <rect key="frame" x="95" y="201" width="594" height="255"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.71764705882352942" green="0.10980392156862745" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" metaFont="menu" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" lineHeightMultiple="1.2" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="boO-WJ-zpf">
                                 <rect key="frame" x="289" y="909" width="191" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2917,21 +3096,28 @@
                                     <segue destination="RQz-2g-gHN" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="sMi-Iw-TPM"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1ih-hg-krc">
-                                <rect key="frame" x="86" y="505" width="597" height="253"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BVY-dX-FVi">
+                                <rect key="frame" x="93" y="513" width="582" height="244"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WH2-f2-Gjp">
-                                <rect key="frame" x="89" y="197" width="597" height="253"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.71764705882352942" green="0.10980392156862745" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" metaFont="menu" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" lineHeightMultiple="1.2" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="myText" destination="e23-FB-g5d" id="ajF-kX-7q1"/>
+                        <outlet property="myText2" destination="BVY-dX-FVi" id="iQg-eY-rhA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rA7-le-ycJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -3073,10 +3259,10 @@
             </objects>
             <point key="canvasLocation" x="3346.875" y="4048.8281249999995"/>
         </scene>
-        <!--View Controller-->
+        <!--Draw2 View Controller-->
         <scene sceneID="hM4-7L-DTd">
             <objects>
-                <viewController id="zLo-1i-QEE" sceneMemberID="viewController">
+                <viewController id="zLo-1i-QEE" customClass="Draw2ViewController" customModule="First_Unit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ezz-75-Z94"/>
                         <viewControllerLayoutGuide type="bottom" id="ki5-jF-4PM"/>
@@ -3095,6 +3281,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="ResetIcon"/>
                                 <connections>
+                                    <action selector="reset:" destination="zLo-1i-QEE" eventType="touchUpInside" id="82b-3m-tjk"/>
                                     <action selector="reset:" destination="e06-EQ-A4d" eventType="touchUpInside" id="8t7-XR-MVi"/>
                                     <action selector="reset:" destination="bP6-Qn-dpV" eventType="touchUpInside" id="AQY-NA-t9m"/>
                                     <action selector="reset:" destination="QWl-Wz-8cK" eventType="touchUpInside" id="FHk-0k-eYW"/>
@@ -3111,15 +3298,12 @@
                                     <segue destination="GHl-je-2ob" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="55o-0I-cCz"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="inRepair" translatesAutoresizingMaskIntoConstraints="NO" id="d5s-kh-lcS">
-                                <rect key="frame" x="200" y="354" width="402" height="317"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZSa-0U-bCk">
                                 <rect key="frame" x="72" y="934" width="25" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="red"/>
                                 <connections>
+                                    <action selector="colorsPicked:" destination="zLo-1i-QEE" eventType="touchUpInside" id="brv-C9-8JW"/>
                                     <action selector="colorsPicked:" destination="zDe-3E-P9X" eventType="touchUpInside" id="mTq-l0-xKM"/>
                                     <action selector="colorsPicked:" destination="e06-EQ-A4d" eventType="touchUpInside" id="oeA-RP-563"/>
                                 </connections>
@@ -3129,6 +3313,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="green"/>
                                 <connections>
+                                    <action selector="colorsPicked:" destination="zLo-1i-QEE" eventType="touchUpInside" id="4fd-K2-VF5"/>
                                     <action selector="colorsPicked:" destination="e06-EQ-A4d" eventType="touchUpInside" id="Kdk-1f-Zpt"/>
                                     <action selector="colorsPicked:" destination="zDe-3E-P9X" eventType="touchUpInside" id="eVq-Sc-Vjf"/>
                                 </connections>
@@ -3140,6 +3325,7 @@
                                 <connections>
                                     <action selector="colorsPicked:" destination="zDe-3E-P9X" eventType="touchUpInside" id="f2m-rN-jO2"/>
                                     <action selector="colorsPicked:" destination="e06-EQ-A4d" eventType="touchUpInside" id="ga9-yy-E3B"/>
+                                    <action selector="colorsPicked:" destination="zLo-1i-QEE" eventType="touchUpInside" id="iiW-3F-jRr"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zBa-Pz-Imx">
@@ -3149,6 +3335,7 @@
                                 <connections>
                                     <action selector="colorsPicked:" destination="e06-EQ-A4d" eventType="touchUpInside" id="djw-Jq-t9J"/>
                                     <action selector="colorsPicked:" destination="zDe-3E-P9X" eventType="touchUpInside" id="opr-yp-BvT"/>
+                                    <action selector="colorsPicked:" destination="zLo-1i-QEE" eventType="touchUpInside" id="qr3-iG-zYn"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yya-RC-pEq">
@@ -3158,6 +3345,7 @@
                                 <connections>
                                     <action selector="colorsPicked:" destination="zDe-3E-P9X" eventType="touchUpInside" id="EMC-Qs-T6k"/>
                                     <action selector="colorsPicked:" destination="e06-EQ-A4d" eventType="touchUpInside" id="NEW-Xo-tWv"/>
+                                    <action selector="colorsPicked:" destination="zLo-1i-QEE" eventType="touchUpInside" id="vNn-bM-wmK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VXd-Si-JGV">
@@ -3166,6 +3354,7 @@
                                 <state key="normal" image="teal"/>
                                 <connections>
                                     <action selector="colorsPicked:" destination="zDe-3E-P9X" eventType="touchUpInside" id="6cG-oE-RK6"/>
+                                    <action selector="colorsPicked:" destination="zLo-1i-QEE" eventType="touchUpInside" id="Anb-53-DHW"/>
                                     <action selector="colorsPicked:" destination="e06-EQ-A4d" eventType="touchUpInside" id="jgy-Ah-eBy"/>
                                 </connections>
                             </button>
@@ -3175,6 +3364,7 @@
                                 <state key="normal" image="white"/>
                                 <connections>
                                     <action selector="colorsPicked:" destination="zDe-3E-P9X" eventType="touchUpInside" id="QdD-wP-Enq"/>
+                                    <action selector="colorsPicked:" destination="zLo-1i-QEE" eventType="touchUpInside" id="tFd-Gc-z7s"/>
                                     <action selector="colorsPicked:" destination="e06-EQ-A4d" eventType="touchUpInside" id="tvk-AV-mEg"/>
                                 </connections>
                             </button>
@@ -3185,11 +3375,19 @@
                                 <connections>
                                     <action selector="colorsPicked:" destination="zDe-3E-P9X" eventType="touchUpInside" id="GXr-t9-qgp"/>
                                     <action selector="colorsPicked:" destination="e06-EQ-A4d" eventType="touchUpInside" id="OaT-MI-XYQ"/>
+                                    <action selector="colorsPicked:" destination="zLo-1i-QEE" eventType="touchUpInside" id="SED-7f-MWQ"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8wZ-JB-5F0">
+                                <rect key="frame" x="0.0" y="-9" width="748" height="1033"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="8wZ-JB-5F0" id="af3-x3-PjG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ikB-rH-fYq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -3383,10 +3581,10 @@
             </objects>
             <point key="canvasLocation" x="3345.3125" y="4774.8046875"/>
         </scene>
-        <!--View Controller-->
+        <!--Draw2 View Controller-->
         <scene sceneID="7wU-kL-ucH">
             <objects>
-                <viewController id="ZbA-ni-PQ8" sceneMemberID="viewController">
+                <viewController id="ZbA-ni-PQ8" customClass="Draw2ViewController" customModule="First_Unit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dlX-G3-Dl7"/>
                         <viewControllerLayoutGuide type="bottom" id="oDh-3R-Whr"/>
@@ -3407,6 +3605,7 @@
                                 <connections>
                                     <action selector="reset:" destination="bP6-Qn-dpV" eventType="touchUpInside" id="7Fm-Gg-xth"/>
                                     <action selector="reset:" destination="oxy-aR-ORp" eventType="touchUpInside" id="LOO-vI-xfl"/>
+                                    <action selector="reset:" destination="ZbA-ni-PQ8" eventType="touchUpInside" id="PoD-Hv-Dnb"/>
                                     <action selector="reset:" destination="zDe-3E-P9X" eventType="touchUpInside" id="VOQ-7F-hLU"/>
                                     <action selector="reset:" destination="QWl-Wz-8cK" eventType="touchUpInside" id="W7B-PK-o04"/>
                                     <action selector="reset:" destination="e06-EQ-A4d" eventType="touchUpInside" id="XNW-dY-edm"/>
@@ -3418,6 +3617,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="red"/>
                                 <connections>
+                                    <action selector="colorsPicked:" destination="ZbA-ni-PQ8" eventType="touchUpInside" id="bmf-Kw-BNr"/>
                                     <action selector="colorsPicked:" destination="zDe-3E-P9X" eventType="touchUpInside" id="hPa-bS-a7o"/>
                                     <action selector="colorsPicked:" destination="e06-EQ-A4d" eventType="touchUpInside" id="nkU-ca-kiY"/>
                                 </connections>
@@ -3429,6 +3629,7 @@
                                 <connections>
                                     <action selector="colorsPicked:" destination="e06-EQ-A4d" eventType="touchUpInside" id="4FC-ji-d0d"/>
                                     <action selector="colorsPicked:" destination="zDe-3E-P9X" eventType="touchUpInside" id="ADg-2l-jiT"/>
+                                    <action selector="colorsPicked:" destination="ZbA-ni-PQ8" eventType="touchUpInside" id="KwP-v0-exC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RmP-tb-HcI">
@@ -3436,6 +3637,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="blue"/>
                                 <connections>
+                                    <action selector="colorsPicked:" destination="ZbA-ni-PQ8" eventType="touchUpInside" id="irX-Zv-J0e"/>
                                     <action selector="colorsPicked:" destination="zDe-3E-P9X" eventType="touchUpInside" id="nMx-XR-Tru"/>
                                     <action selector="colorsPicked:" destination="e06-EQ-A4d" eventType="touchUpInside" id="wai-vd-AEr"/>
                                 </connections>
@@ -3445,6 +3647,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="pink"/>
                                 <connections>
+                                    <action selector="colorsPicked:" destination="ZbA-ni-PQ8" eventType="touchUpInside" id="RNP-7s-snq"/>
                                     <action selector="colorsPicked:" destination="e06-EQ-A4d" eventType="touchUpInside" id="WDf-kv-KGW"/>
                                     <action selector="colorsPicked:" destination="zDe-3E-P9X" eventType="touchUpInside" id="ewp-2A-Q0z"/>
                                 </connections>
@@ -3455,6 +3658,7 @@
                                 <state key="normal" image="yellow"/>
                                 <connections>
                                     <action selector="colorsPicked:" destination="zDe-3E-P9X" eventType="touchUpInside" id="22x-Yf-n4p"/>
+                                    <action selector="colorsPicked:" destination="ZbA-ni-PQ8" eventType="touchUpInside" id="KLw-mR-aHP"/>
                                     <action selector="colorsPicked:" destination="e06-EQ-A4d" eventType="touchUpInside" id="bQV-0P-Wqh"/>
                                 </connections>
                             </button>
@@ -3464,6 +3668,7 @@
                                 <state key="normal" image="teal"/>
                                 <connections>
                                     <action selector="colorsPicked:" destination="e06-EQ-A4d" eventType="touchUpInside" id="1cb-jc-Lfm"/>
+                                    <action selector="colorsPicked:" destination="ZbA-ni-PQ8" eventType="touchUpInside" id="Lxi-Ga-kaA"/>
                                     <action selector="colorsPicked:" destination="zDe-3E-P9X" eventType="touchUpInside" id="dVe-V8-WIi"/>
                                 </connections>
                             </button>
@@ -3473,6 +3678,7 @@
                                 <state key="normal" image="white"/>
                                 <connections>
                                     <action selector="colorsPicked:" destination="zDe-3E-P9X" eventType="touchUpInside" id="8TV-7L-KRZ"/>
+                                    <action selector="colorsPicked:" destination="ZbA-ni-PQ8" eventType="touchUpInside" id="KL1-tt-YpE"/>
                                     <action selector="colorsPicked:" destination="e06-EQ-A4d" eventType="touchUpInside" id="paY-eG-ZqJ"/>
                                 </connections>
                             </button>
@@ -3482,6 +3688,7 @@
                                 <state key="normal" image="black"/>
                                 <connections>
                                     <action selector="colorsPicked:" destination="e06-EQ-A4d" eventType="touchUpInside" id="Fzt-uk-W38"/>
+                                    <action selector="colorsPicked:" destination="ZbA-ni-PQ8" eventType="touchUpInside" id="MLf-B9-nCV"/>
                                     <action selector="colorsPicked:" destination="zDe-3E-P9X" eventType="touchUpInside" id="T4e-5q-mVM"/>
                                 </connections>
                             </button>
@@ -3493,13 +3700,16 @@
                                     <segue destination="zLo-1i-QEE" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="fGX-M6-BN8"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="inRepair" translatesAutoresizingMaskIntoConstraints="NO" id="25Z-IT-coU">
-                                <rect key="frame" x="183" y="379" width="402" height="317"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CX1-0t-vBI">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="CX1-0t-vBI" id="SRb-Dy-d0o"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hs9-Sx-HhG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -3710,7 +3920,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="oJX-KZ-GyQ" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="hx4-sS-NmS"/>
+                                    <segue destination="oJX-KZ-GyQ" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="hx4-sS-NmS"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3781,7 +3991,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="1Lw-To-BUt" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="GCE-FD-5Cm"/>
+                                    <segue destination="1Lw-To-BUt" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="GCE-FD-5Cm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3u3-4c-Tgm">
@@ -3850,7 +4060,6 @@
         <image name="history1_6" width="807" height="1013"/>
         <image name="history1_7" width="807" height="1013"/>
         <image name="history1_8" width="807" height="1013"/>
-        <image name="inRepair" width="591" height="591"/>
         <image name="kid1" width="100" height="129"/>
         <image name="kid2" width="100" height="125"/>
         <image name="kid3" width="163" height="163"/>
@@ -3913,10 +4122,10 @@
         <image name="yellow" width="120" height="455"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="vyP-d7-00H"/>
-        <segue reference="WAe-30-NMT"/>
-        <segue reference="xNJ-Rs-Qsf"/>
+        <segue reference="gj4-M8-Y2B"/>
         <segue reference="v4K-za-Vzl"/>
+        <segue reference="rWw-rJ-zST"/>
+        <segue reference="ja9-nF-GTc"/>
         <segue reference="Vsx-cu-3UI"/>
     </inferredMetricsTieBreakers>
 </document>
