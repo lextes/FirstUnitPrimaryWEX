@@ -991,6 +991,10 @@
                                 <rect key="frame" x="-33" y="-35" width="821" height="1079"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="recuadros" translatesAutoresizingMaskIntoConstraints="NO" id="3IQ-UZ-v6Y">
+                                <rect key="frame" x="84" y="289" width="587" height="625"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GL8-Jx-kCl">
                                 <rect key="frame" x="289" y="912" width="191" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -999,32 +1003,6 @@
                                     <segue destination="DAf-VD-JiH" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Z6w-He-r0x"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fha-62-15l">
-                                <rect key="frame" x="420" y="226" width="199" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.92941176469999998" green="0.56470588239999997" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="35"/>
-                                <state key="normal" title="Show me">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="numberPressedWithSender:" destination="3Td-4r-0Hy" eventType="touchUpInside" id="iCW-E2-USP"/>
-                                    <action selector="sync:" destination="3Td-4r-0Hy" eventType="touchUpInside" id="yHG-Zy-POI"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8FN-M4-Mgg">
-                                <rect key="frame" x="541" y="880" width="220" height="144"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="ok"/>
-                                <connections>
-                                    <action selector="ok:" destination="3Td-4r-0Hy" eventType="touchUpInside" id="g2X-Ow-pNc"/>
-                                </connections>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="recuadros" translatesAutoresizingMaskIntoConstraints="NO" id="3IQ-UZ-v6Y">
-                                <rect key="frame" x="84" y="289" width="587" height="625"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
