@@ -2117,7 +2117,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <mutableString key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                        <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                         <attributes>
                                             <color key="NSColor" red="0.71764705882352942" green="0.10980392156862745" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
                                             <font key="NSFont" metaFont="menu" size="14"/>
@@ -3133,10 +3133,10 @@
             </objects>
             <point key="canvasLocation" x="4034" y="4049"/>
         </scene>
-        <!--View Controller-->
+        <!--Heroes View Controller-->
         <scene sceneID="KM1-JK-uJv">
             <objects>
-                <viewController id="FGU-y8-g2x" sceneMemberID="viewController">
+                <viewController id="FGU-y8-g2x" customClass="heroesViewController" customModule="First_Unit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wj1-iZ-VB1"/>
                         <viewControllerLayoutGuide type="bottom" id="xez-Ma-gzf"/>
@@ -3155,6 +3155,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
+                                    <action selector="StopPlay:" destination="FGU-y8-g2x" eventType="touchUpInside" id="rNT-Hp-kxp"/>
                                     <segue destination="96R-TD-IvX" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="ett-wU-Ckd"/>
                                 </connections>
                             </button>
@@ -3162,31 +3163,49 @@
                                 <rect key="frame" x="279" y="284" width="210" height="191"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title=" " image="niño1"/>
+                                <connections>
+                                    <action selector="playButon1:" destination="FGU-y8-g2x" eventType="touchUpInside" id="sps-q8-n1L"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jGM-t5-H0N">
                                 <rect key="frame" x="97" y="417" width="210" height="191"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title=" " image="niño2"/>
+                                <connections>
+                                    <action selector="playButon2:" destination="FGU-y8-g2x" eventType="touchUpInside" id="gsQ-xz-1s8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="htN-sD-0md">
                                 <rect key="frame" x="274" y="545" width="210" height="191"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title=" " image="niño4"/>
+                                <connections>
+                                    <action selector="playButon4:" destination="FGU-y8-g2x" eventType="touchUpInside" id="wfI-DG-2H4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s8p-Yt-mn9">
                                 <rect key="frame" x="116" y="709" width="210" height="191"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title=" " image="niño5"/>
+                                <connections>
+                                    <action selector="playButon5:" destination="FGU-y8-g2x" eventType="touchUpInside" id="mYB-Ug-vlv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BCB-4d-xaB">
                                 <rect key="frame" x="442" y="709" width="210" height="191"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title=" " image="niño6"/>
+                                <connections>
+                                    <action selector="playButon6:" destination="FGU-y8-g2x" eventType="touchUpInside" id="6Pm-jf-Dln"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fry-2B-ebK">
                                 <rect key="frame" x="457" y="413" width="210" height="191"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title=" " image="niño3"/>
+                                <connections>
+                                    <action selector="playButon3:" destination="FGU-y8-g2x" eventType="touchUpInside" id="lG5-zO-y1Y"/>
+                                </connections>
                             </button>
                         </subviews>
                     </view>
@@ -3488,10 +3507,10 @@
             </objects>
             <point key="canvasLocation" x="4033" y="4775"/>
         </scene>
-        <!--View Controller-->
+        <!--Animated2 Button View Controller-->
         <scene sceneID="H55-zC-Tnj">
             <objects>
-                <viewController id="opa-Sj-BTe" sceneMemberID="viewController">
+                <viewController id="opa-Sj-BTe" customClass="Animated2ButtonViewController" customModule="First_Unit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ljL-eO-ZYf"/>
                         <viewControllerLayoutGuide type="bottom" id="t9n-AF-KIp"/>
@@ -3510,21 +3529,37 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="gUC-hB-SAV" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Qby-tl-0Dd"/>
+                                    <segue destination="gUC-hB-SAV" kind="show" id="3zq-W7-v5R"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d7e-DD-w2y">
+                                <rect key="frame" x="334" y="846" width="157" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" "/>
+                                <connections>
+                                    <action selector="numberPressedWithSender:" destination="opa-Sj-BTe" eventType="touchUpInside" id="ZdQ-ll-n4H"/>
+                                    <action selector="sync:" destination="opa-Sj-BTe" eventType="touchUpInside" id="TUp-8I-Rxd"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="independencia" translatesAutoresizingMaskIntoConstraints="NO" id="lns-p7-mBZ">
+                                <rect key="frame" x="179" y="256" width="444" height="582"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="popUp" destination="lns-p7-mBZ" id="ARX-wr-yyv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZJf-RG-zfK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2662" y="4775"/>
+            <point key="canvasLocation" x="2661.71875" y="4774.8046875"/>
         </scene>
-        <!--View Controller-->
+        <!--Animated3 Button View Controller-->
         <scene sceneID="ZIw-jF-jXG">
             <objects>
-                <viewController id="gUC-hB-SAV" sceneMemberID="viewController">
+                <viewController id="gUC-hB-SAV" customClass="Animated3ButtonViewController" customModule="First_Unit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TAW-hG-XhY"/>
                         <viewControllerLayoutGuide type="bottom" id="DYG-Be-g9q"/>
@@ -3550,10 +3585,20 @@
                                 <rect key="frame" x="120" y="219" width="251" height="236"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title=" " image="hidalgo"/>
+                                <connections>
+                                    <action selector="numberPressed:" destination="gUC-hB-SAV" eventType="touchUpInside" id="c2j-Ji-4Lv"/>
+                                </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mural_hildago" translatesAutoresizingMaskIntoConstraints="NO" id="kMY-LW-7P6">
+                                <rect key="frame" x="39" y="161" width="690" height="582"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="popUP" destination="kMY-LW-7P6" id="uKp-mK-65t"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vSr-4L-Bkf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -4038,11 +4083,13 @@
         <image name="history1_6" width="807" height="1013"/>
         <image name="history1_7" width="807" height="1013"/>
         <image name="history1_8" width="807" height="1013"/>
+        <image name="independencia" width="1417" height="2096"/>
         <image name="kid1" width="100" height="129"/>
         <image name="kid2" width="100" height="125"/>
         <image name="kid3" width="163" height="163"/>
         <image name="kid4" width="140" height="96"/>
         <image name="letreroA" width="931" height="392"/>
+        <image name="mural_hildago" width="1417" height="1147"/>
         <image name="niño1" width="285" height="262"/>
         <image name="niño2" width="285" height="262"/>
         <image name="niño3" width="285" height="262"/>

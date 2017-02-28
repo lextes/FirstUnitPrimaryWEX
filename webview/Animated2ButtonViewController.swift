@@ -12,7 +12,8 @@ import AVFoundation
 class Animated2ButtonViewController: UIViewController {
 
    
-    @IBOutlet weak var popUp: UIVisualEffectView!
+   
+    @IBOutlet weak var popUp: UIImageView!
  
     var originalCenter: CGPoint!
     var btnSound2: AVAudioPlayer!
@@ -36,6 +37,7 @@ class Animated2ButtonViewController: UIViewController {
         
     }
     
+   
    
     @IBAction func sync(_ sender: Any) {
         
