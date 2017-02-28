@@ -26,7 +26,7 @@ class Animated3ButtonViewController: UIViewController {
         
         //path for sound
         
-        let path = Bundle.main.path(forResource: "magico", ofType: "mp3")
+        let path = Bundle.main.path(forResource: "boing", ofType: "mp3")
         let soundURL = URL(fileURLWithPath: path!)
         
         do {
@@ -43,8 +43,9 @@ class Animated3ButtonViewController: UIViewController {
     // button send action animated
     
     
+    
     @IBAction func sync(_ sender: Any) {
-        
+
         popUP.transform = CGAffineTransform(scaleX: 0.3, y: 2)
         
         UIView.animate(withDuration: 1, delay: 0, usingSpringWithDamping: 0.3 , initialSpringVelocity: 0, options: .allowUserInteraction, animations: {

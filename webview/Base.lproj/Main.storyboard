@@ -3529,7 +3529,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="gUC-hB-SAV" kind="show" id="3zq-W7-v5R"/>
+                                    <segue destination="gUC-hB-SAV" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="3zq-W7-v5R"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d7e-DD-w2y">
@@ -3587,10 +3587,11 @@
                                 <state key="normal" title=" " image="hidalgo"/>
                                 <connections>
                                     <action selector="numberPressed:" destination="gUC-hB-SAV" eventType="touchUpInside" id="c2j-Ji-4Lv"/>
+                                    <action selector="sync:" destination="gUC-hB-SAV" eventType="touchUpInside" id="ftf-Yh-XhG"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mural_hildago" translatesAutoresizingMaskIntoConstraints="NO" id="kMY-LW-7P6">
-                                <rect key="frame" x="39" y="161" width="690" height="582"/>
+                                <rect key="frame" x="39" y="157" width="690" height="582"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
