@@ -3939,10 +3939,10 @@
             </objects>
             <point key="canvasLocation" x="3346.875" y="6453.515625"/>
         </scene>
-        <!--View Controller-->
+        <!--Appear House View Controller-->
         <scene sceneID="tmf-6f-lg3">
             <objects>
-                <viewController id="1Lw-To-BUt" sceneMemberID="viewController">
+                <viewController id="1Lw-To-BUt" customClass="AppearHouseViewController" customModule="First_Unit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="aNG-DW-Qnl"/>
                         <viewControllerLayoutGuide type="bottom" id="YQE-tL-Y2b"/>
@@ -3963,9 +3963,16 @@
                                     <segue destination="oJX-KZ-GyQ" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="hx4-sS-NmS"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="myHouse" translatesAutoresizingMaskIntoConstraints="NO" id="v2I-uE-Ozv">
+                                <rect key="frame" x="248" y="261" width="295" height="103"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="kid1" destination="v2I-uE-Ozv" id="gtE-4j-XLs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fZi-BP-bL2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -4111,6 +4118,7 @@
         <image name="kid4" width="140" height="96"/>
         <image name="letreroA" width="931" height="392"/>
         <image name="mural_hildago" width="1417" height="1147"/>
+        <image name="myHouse" width="484" height="169"/>
         <image name="niño1" width="285" height="262"/>
         <image name="niño2" width="285" height="262"/>
         <image name="niño3" width="285" height="262"/>

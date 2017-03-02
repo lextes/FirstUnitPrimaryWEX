@@ -20,6 +20,7 @@
 		844D2B961E68640400C7BD52 /* social3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 844D2B931E68640400C7BD52 /* social3.m4a */; };
 		844D2B981E68669C00C7BD52 /* artesanias.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 844D2B971E68669C00C7BD52 /* artesanias.mp4 */; };
 		844D2B9A1E687D8200C7BD52 /* radio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 844D2B991E687D8200C7BD52 /* radio.mp3 */; };
+		844D2B9E1E689C7500C7BD52 /* AppearHouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844D2B9D1E689C7500C7BD52 /* AppearHouseViewController.swift */; };
 		8469F2031E646DD10005D4B6 /* Text3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8469F2021E646DD10005D4B6 /* Text3ViewController.swift */; };
 		8469F2051E646F8A0005D4B6 /* Draw2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8469F2041E646F8A0005D4B6 /* Draw2ViewController.swift */; };
 		8469F2071E647BA10005D4B6 /* Text3AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8469F2061E647BA10005D4B6 /* Text3AViewController.swift */; };
@@ -75,6 +76,7 @@
 		844D2B931E68640400C7BD52 /* social3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = social3.m4a; sourceTree = "<group>"; };
 		844D2B971E68669C00C7BD52 /* artesanias.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = artesanias.mp4; sourceTree = "<group>"; };
 		844D2B991E687D8200C7BD52 /* radio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = radio.mp3; sourceTree = "<group>"; };
+		844D2B9D1E689C7500C7BD52 /* AppearHouseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppearHouseViewController.swift; path = webview/AppearHouseViewController.swift; sourceTree = SOURCE_ROOT; };
 		8469F2021E646DD10005D4B6 /* Text3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Text3ViewController.swift; path = webview/Text3ViewController.swift; sourceTree = SOURCE_ROOT; };
 		8469F2041E646F8A0005D4B6 /* Draw2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Draw2ViewController.swift; path = webview/Draw2ViewController.swift; sourceTree = SOURCE_ROOT; };
 		8469F2061E647BA10005D4B6 /* Text3AViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Text3AViewController.swift; path = webview/Text3AViewController.swift; sourceTree = SOURCE_ROOT; };
@@ -232,6 +234,7 @@
 				8469F2061E647BA10005D4B6 /* Text3AViewController.swift */,
 				84AE55941E65C0800093AC51 /* heroesViewController.swift */,
 				84CCE7BC1E65EB6C0002A2EC /* Animated3ButtonViewController.swift */,
+				844D2B9D1E689C7500C7BD52 /* AppearHouseViewController.swift */,
 			);
 			name = dinamics;
 			sourceTree = "<group>";
@@ -370,6 +373,7 @@
 				84B0CA6D1E539ED30011E552 /* TextViewController.swift in Sources */,
 				84B5D73E1E5D179B007B5858 /* VideoBViewController.swift in Sources */,
 				8469F2071E647BA10005D4B6 /* Text3AViewController.swift in Sources */,
+				844D2B9E1E689C7500C7BD52 /* AppearHouseViewController.swift in Sources */,
 				8469F2031E646DD10005D4B6 /* Text3ViewController.swift in Sources */,
 				84BBEDFD1E5CADB70094E162 /* VideoViewController.swift in Sources */,
 				84B5D74E1E5D2B84007B5858 /* MultipleSoundsBViewController.swift in Sources */,
