@@ -21,6 +21,9 @@
 		844D2B981E68669C00C7BD52 /* artesanias.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 844D2B971E68669C00C7BD52 /* artesanias.mp4 */; };
 		844D2B9A1E687D8200C7BD52 /* radio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 844D2B991E687D8200C7BD52 /* radio.mp3 */; };
 		844D2B9E1E689C7500C7BD52 /* AppearHouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844D2B9D1E689C7500C7BD52 /* AppearHouseViewController.swift */; };
+		844D2BA21E68AB5700C7BD52 /* Animated4ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844D2BA11E68AB5700C7BD52 /* Animated4ButtonViewController.swift */; };
+		844D2BA41E68B2BB00C7BD52 /* cohetes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 844D2BA31E68B2BB00C7BD52 /* cohetes.mp3 */; };
+		844D2BA61E68B72500C7BD52 /* tv.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 844D2BA51E68B72500C7BD52 /* tv.mp4 */; };
 		8469F2031E646DD10005D4B6 /* Text3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8469F2021E646DD10005D4B6 /* Text3ViewController.swift */; };
 		8469F2051E646F8A0005D4B6 /* Draw2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8469F2041E646F8A0005D4B6 /* Draw2ViewController.swift */; };
 		8469F2071E647BA10005D4B6 /* Text3AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8469F2061E647BA10005D4B6 /* Text3AViewController.swift */; };
@@ -77,6 +80,9 @@
 		844D2B971E68669C00C7BD52 /* artesanias.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = artesanias.mp4; sourceTree = "<group>"; };
 		844D2B991E687D8200C7BD52 /* radio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = radio.mp3; sourceTree = "<group>"; };
 		844D2B9D1E689C7500C7BD52 /* AppearHouseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppearHouseViewController.swift; path = webview/AppearHouseViewController.swift; sourceTree = SOURCE_ROOT; };
+		844D2BA11E68AB5700C7BD52 /* Animated4ButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Animated4ButtonViewController.swift; path = webview/Animated4ButtonViewController.swift; sourceTree = SOURCE_ROOT; };
+		844D2BA31E68B2BB00C7BD52 /* cohetes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cohetes.mp3; sourceTree = "<group>"; };
+		844D2BA51E68B72500C7BD52 /* tv.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = tv.mp4; sourceTree = "<group>"; };
 		8469F2021E646DD10005D4B6 /* Text3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Text3ViewController.swift; path = webview/Text3ViewController.swift; sourceTree = SOURCE_ROOT; };
 		8469F2041E646F8A0005D4B6 /* Draw2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Draw2ViewController.swift; path = webview/Draw2ViewController.swift; sourceTree = SOURCE_ROOT; };
 		8469F2061E647BA10005D4B6 /* Text3AViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Text3AViewController.swift; path = webview/Text3AViewController.swift; sourceTree = SOURCE_ROOT; };
@@ -177,6 +183,7 @@
 				844D2B851E6863CF00C7BD52 /* agustinMelgar.m4a */,
 				844D2B871E6863DE00C7BD52 /* fernandoMontes.m4a */,
 				844D2B881E6863DE00C7BD52 /* franciscoMarquez.m4a */,
+				844D2BA31E68B2BB00C7BD52 /* cohetes.mp3 */,
 				844D2B891E6863DE00C7BD52 /* juanBarrera.m4a */,
 				844D2B8A1E6863DE00C7BD52 /* juanEscutia.m4a */,
 				844D2B911E68640400C7BD52 /* social1.m4a */,
@@ -235,6 +242,7 @@
 				84AE55941E65C0800093AC51 /* heroesViewController.swift */,
 				84CCE7BC1E65EB6C0002A2EC /* Animated3ButtonViewController.swift */,
 				844D2B9D1E689C7500C7BD52 /* AppearHouseViewController.swift */,
+				844D2BA11E68AB5700C7BD52 /* Animated4ButtonViewController.swift */,
 			);
 			name = dinamics;
 			sourceTree = "<group>";
@@ -243,6 +251,7 @@
 			isa = PBXGroup;
 			children = (
 				844D2B971E68669C00C7BD52 /* artesanias.mp4 */,
+				844D2BA51E68B72500C7BD52 /* tv.mp4 */,
 				84E9326F1E5CB29400F1E768 /* trans.mp4 */,
 			);
 			name = video;
@@ -322,6 +331,7 @@
 				8485F0B11E54D1A300C457DF /* orchestral.mp3 in Resources */,
 				84DCF6531E6745F600925BF5 /* bruhsing4.gif in Resources */,
 				844D2B8E1E6863DE00C7BD52 /* juanEscutia.m4a in Resources */,
+				844D2BA61E68B72500C7BD52 /* tv.mp4 in Resources */,
 				844D2B901E6863EC00C7BD52 /* vicenteSuarez.m4a in Resources */,
 				84AE559D1E65D25D0093AC51 /* zip.mp3 in Resources */,
 				84A6CB2E1E458C240084C8E5 /* LaunchScreen.storyboard in Resources */,
@@ -338,6 +348,7 @@
 				84B5D7481E5D2B23007B5858 /* phone.mp3 in Resources */,
 				84B5D7441E5D2B07007B5858 /* camera.mp3 in Resources */,
 				84A6CB291E458C240084C8E5 /* Main.storyboard in Resources */,
+				844D2BA41E68B2BB00C7BD52 /* cohetes.mp3 in Resources */,
 				844D2B951E68640400C7BD52 /* social2.m4a in Resources */,
 				84B5D7491E5D2B23007B5858 /* proyector.mp3 in Resources */,
 				844D2B981E68669C00C7BD52 /* artesanias.mp4 in Resources */,
@@ -368,6 +379,7 @@
 				84A6CB241E458C240084C8E5 /* AppDelegate.swift in Sources */,
 				84D73B081E55FAB900896D40 /* AppearViewController.swift in Sources */,
 				84F0A1F11E5F4EE70030AC0A /* Animated2ButtonViewController.swift in Sources */,
+				844D2BA21E68AB5700C7BD52 /* Animated4ButtonViewController.swift in Sources */,
 				84AE55951E65C0800093AC51 /* heroesViewController.swift in Sources */,
 				8469F2051E646F8A0005D4B6 /* Draw2ViewController.swift in Sources */,
 				84B0CA6D1E539ED30011E552 /* TextViewController.swift in Sources */,

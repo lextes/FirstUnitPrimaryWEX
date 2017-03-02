@@ -975,10 +975,10 @@
             </objects>
             <point key="canvasLocation" x="2663.28125" y="-1484.1796875"/>
         </scene>
-        <!--Animated Button View Controller-->
+        <!--View Controller-->
         <scene sceneID="8aP-3t-i1q">
             <objects>
-                <viewController id="3Td-4r-0Hy" customClass="AnimatedButtonViewController" customModule="First_Unit" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="3Td-4r-0Hy" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Tve-Yr-dQX"/>
                         <viewControllerLayoutGuide type="bottom" id="G2B-lt-Af6"/>
@@ -991,10 +991,6 @@
                                 <rect key="frame" x="-33" y="-35" width="821" height="1079"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="recuadros" translatesAutoresizingMaskIntoConstraints="NO" id="3IQ-UZ-v6Y">
-                                <rect key="frame" x="84" y="289" width="587" height="625"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GL8-Jx-kCl">
                                 <rect key="frame" x="289" y="912" width="191" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1003,12 +999,50 @@
                                     <segue destination="DAf-VD-JiH" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Z6w-He-r0x"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MoR-h9-7xc">
+                                <rect key="frame" x="438" y="380" width="154" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43956741690635681" green="0.84001761674880981" blue="0.11150351911783218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="30"/>
+                                <state key="normal" title="Brushing">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N41-OL-LCf">
+                                <rect key="frame" x="136" y="700" width="154" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43956741690635681" green="0.84001761674880981" blue="0.11150351911783218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="30"/>
+                                <state key="normal" title="Washing">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XKd-5t-L9Y">
+                                <rect key="frame" x="438" y="700" width="154" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43956741690635681" green="0.84001761674880981" blue="0.11150351911783218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="30"/>
+                                <state key="normal" title="Nails">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="inRepair" translatesAutoresizingMaskIntoConstraints="NO" id="CWi-P7-hUI">
+                                <rect key="frame" x="162" y="295" width="430" height="375"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.82788026332855225" green="0.22832116484642029" blue="0.29718968272209167" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YMQ-Oa-Na4">
+                                <rect key="frame" x="136" y="380" width="154" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43956741690635681" green="0.84001761674880981" blue="0.11150351911783218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="30"/>
+                                <state key="normal" title="Shower">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <connections>
-                        <outlet property="popUp" destination="3IQ-UZ-v6Y" id="2rd-Pa-CkR"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OL3-D7-XGm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2356,6 +2390,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title=" " image="ask5"/>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="inRepair" translatesAutoresizingMaskIntoConstraints="NO" id="blR-9R-46L">
+                                <rect key="frame" x="214" y="244" width="416" height="328"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -2827,6 +2865,10 @@
                                     <segue destination="fmb-b6-OEP" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="waR-IN-3Xk"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="inRepair" translatesAutoresizingMaskIntoConstraints="NO" id="f2K-kW-cqg">
+                                <rect key="frame" x="193" y="376" width="416" height="328"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -3027,6 +3069,10 @@
                                     <segue destination="KZm-gt-UGW" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Zb6-kH-AGa"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="inRepair" translatesAutoresizingMaskIntoConstraints="NO" id="844-TU-fXf">
+                                <rect key="frame" x="159" y="348" width="416" height="328"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -3418,7 +3464,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="opa-Sj-BTe" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="3xE-Qy-RhW"/>
+                                    <segue destination="opa-Sj-BTe" kind="show" id="828-Ap-fww"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kjx-8s-PiP">
@@ -3507,10 +3553,10 @@
             </objects>
             <point key="canvasLocation" x="4033" y="4775"/>
         </scene>
-        <!--Animated2 Button View Controller-->
+        <!--Animated4 Button View Controller-->
         <scene sceneID="H55-zC-Tnj">
             <objects>
-                <viewController id="opa-Sj-BTe" customClass="Animated2ButtonViewController" customModule="First_Unit" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="opa-Sj-BTe" customClass="Animated4ButtonViewController" customModule="First_Unit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ljL-eO-ZYf"/>
                         <viewControllerLayoutGuide type="bottom" id="t9n-AF-KIp"/>
@@ -3529,6 +3575,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
+                                    <action selector="playButon1:" destination="opa-Sj-BTe" eventType="touchUpInside" id="7JA-jk-eIn"/>
                                     <segue destination="gUC-hB-SAV" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="3zq-W7-v5R"/>
                                 </connections>
                             </button>
@@ -3537,19 +3584,19 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title=" "/>
                                 <connections>
-                                    <action selector="numberPressedWithSender:" destination="opa-Sj-BTe" eventType="touchUpInside" id="ZdQ-ll-n4H"/>
-                                    <action selector="sync:" destination="opa-Sj-BTe" eventType="touchUpInside" id="TUp-8I-Rxd"/>
+                                    <action selector="numberPressedWithSender:" destination="opa-Sj-BTe" eventType="touchUpInside" id="0Ny-DE-WpF"/>
+                                    <action selector="sync:" destination="opa-Sj-BTe" eventType="touchUpInside" id="E4M-mV-J3h"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="independencia" translatesAutoresizingMaskIntoConstraints="NO" id="lns-p7-mBZ">
-                                <rect key="frame" x="179" y="256" width="444" height="582"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cuadroFiesta" translatesAutoresizingMaskIntoConstraints="NO" id="cP3-eL-Ob5">
+                                <rect key="frame" x="147" y="345" width="531" height="360"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="popUp" destination="lns-p7-mBZ" id="ARX-wr-yyv"/>
+                        <outlet property="popUp" destination="cP3-eL-Ob5" id="rcE-Tj-kp7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZJf-RG-zfK" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3866,6 +3913,9 @@
                                 <rect key="frame" x="327" y="606" width="153" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title=" " image="tv"/>
+                                <connections>
+                                    <action selector="playVideo:" destination="gsv-m5-t3M" eventType="touchUpInside" id="kkO-Sy-9BI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SSo-3N-qsP">
                                 <rect key="frame" x="515" y="602" width="132" height="107"/>
@@ -3929,6 +3979,10 @@
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Geofather" translatesAutoresizingMaskIntoConstraints="NO" id="Eij-76-kvu">
                                 <rect key="frame" x="106" y="163" width="204" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="inRepair" translatesAutoresizingMaskIntoConstraints="NO" id="NQX-Vi-dMg">
+                                <rect key="frame" x="160" y="348" width="416" height="328"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -4090,6 +4144,7 @@
         <image name="blue" width="120" height="456"/>
         <image name="camera" width="102" height="220"/>
         <image name="castle" width="251" height="161"/>
+        <image name="cuadroFiesta" width="629" height="404"/>
         <image name="flechaBACK" width="484" height="336"/>
         <image name="flechaFORW" width="484" height="336"/>
         <image name="fondoFinleccion" width="539" height="693"/>
@@ -4111,13 +4166,13 @@
         <image name="history1_6" width="807" height="1013"/>
         <image name="history1_7" width="807" height="1013"/>
         <image name="history1_8" width="807" height="1013"/>
-        <image name="independencia" width="1417" height="2096"/>
+        <image name="inRepair" width="591" height="591"/>
         <image name="kid1" width="100" height="129"/>
         <image name="kid2" width="100" height="125"/>
         <image name="kid3" width="163" height="163"/>
         <image name="kid4" width="140" height="96"/>
         <image name="letreroA" width="931" height="392"/>
-        <image name="mural_hildago" width="1417" height="1147"/>
+        <image name="mural_hildago" width="700" height="567"/>
         <image name="myHouse" width="484" height="169"/>
         <image name="niño1" width="285" height="262"/>
         <image name="niño2" width="285" height="262"/>
@@ -4140,7 +4195,6 @@
         <image name="prueba_test8" width="556" height="732"/>
         <image name="prueba_test9" width="556" height="732"/>
         <image name="radio" width="162" height="167"/>
-        <image name="recuadros" width="698" height="788"/>
         <image name="red" width="120" height="456"/>
         <image name="socialUnit1_1" width="522" height="698"/>
         <image name="socialUnit1_10" width="545" height="706"/>
@@ -4176,10 +4230,10 @@
         <image name="yellow" width="120" height="455"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="gj4-M8-Y2B"/>
-        <segue reference="v4K-za-Vzl"/>
-        <segue reference="rWw-rJ-zST"/>
-        <segue reference="ja9-nF-GTc"/>
+        <segue reference="rHE-kT-9zw"/>
         <segue reference="Vsx-cu-3UI"/>
+        <segue reference="v4K-za-Vzl"/>
+        <segue reference="gj4-M8-Y2B"/>
+        <segue reference="ja9-nF-GTc"/>
     </inferredMetricsTieBreakers>
 </document>

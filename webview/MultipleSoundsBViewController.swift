@@ -8,6 +8,7 @@
 
 import UIKit
 import AVFoundation
+import AVKit
 
 class MultipleSoundsBViewController: UIViewController {
     
@@ -18,7 +19,9 @@ class MultipleSoundsBViewController: UIViewController {
     var but5 = AVAudioPlayer()
 
 
-
+    var playerController = AVPlayerViewController()
+    var player:AVPlayer?
+    
     var stopPlay = AVAudioPlayer()
 
     
@@ -61,6 +64,14 @@ class MultipleSoundsBViewController: UIViewController {
         }
         catch{
             print(error)
+        }
+        
+        
+        let videoString: String? = Bundle.main.path(forResource: "tv", ofType: ".mp4")
+        if let url = videoString{
+            let videoURL = NSURL(fileURLWithPath: url)
+            self.player = AVPlayer(url: videoURL as URL)
+            self.playerController.player = self.player
         }
     
     }
@@ -111,6 +122,19 @@ class MultipleSoundsBViewController: UIViewController {
             but5.stop()
         }
     }
+    
+    @IBAction func playVideo(_ sender: AnyObject) {
+    
+        self.present(self.playerController, animated: true, completion: {
+            
+            self.playerController.player?.play()
+        })
+            but1.stop()
+            but2.stop()
+            but3.stop()
+            but4.stop()
+            but5.stop()
+        }
     
     @IBAction func playButon5(_ sender: AnyObject) {
         but5.play()
