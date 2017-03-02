@@ -20,7 +20,7 @@ class MultipleSoundsViewController: UIViewController {
         super.viewDidLoad()
         
         do{
-            button1 = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "orchestral", ofType: "mp3")!))
+            button1 = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "social2", ofType: "m4a")!))
             button1.prepareToPlay()
         }
         catch{
@@ -28,7 +28,7 @@ class MultipleSoundsViewController: UIViewController {
         }
         
         do{
-            button2 = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "violin", ofType: "mp3")!))
+            button2 = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "social1", ofType: "m4a")!))
             button2.prepareToPlay()
         }
         catch{
@@ -36,7 +36,7 @@ class MultipleSoundsViewController: UIViewController {
         }
         
         do{
-            button3 = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "starlight", ofType: "mp3")!))
+            button3 = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "social3", ofType: "m4a")!))
             button3.prepareToPlay()
         }
         catch{

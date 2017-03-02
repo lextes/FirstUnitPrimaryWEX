@@ -3876,7 +3876,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xdD-Y4-LkT">
-                                <rect key="frame" x="349" y="399" width="70" height="144"/>
+                                <rect key="frame" x="368" y="405" width="70" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title=" " image="camera"/>
                                 <connections>
@@ -3915,6 +3915,22 @@
                                     <segue destination="bCK-v6-rL3" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Fmt-Bz-3B3"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Geobrother" translatesAutoresizingMaskIntoConstraints="NO" id="JrI-i5-R0g">
+                                <rect key="frame" x="106" y="651" width="204" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Geojuanita" translatesAutoresizingMaskIntoConstraints="NO" id="m4o-XD-bqL">
+                                <rect key="frame" x="106" y="487" width="204" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Geomother" translatesAutoresizingMaskIntoConstraints="NO" id="20r-LS-5lt">
+                                <rect key="frame" x="106" y="323" width="204" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Geofather" translatesAutoresizingMaskIntoConstraints="NO" id="Eij-76-kvu">
+                                <rect key="frame" x="106" y="163" width="204" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -4050,6 +4066,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Geobrother" width="274" height="195"/>
+        <image name="Geofather" width="274" height="196"/>
+        <image name="Geojuanita" width="274" height="195"/>
+        <image name="Geomother" width="275" height="196"/>
         <image name="ResetIcon" width="416" height="415"/>
         <image name="W LOGO" width="442" height="374"/>
         <image name="artes" width="506" height="337"/>

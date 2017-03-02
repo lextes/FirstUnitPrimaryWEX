@@ -20,7 +20,7 @@ class VideoBViewController: UIViewController {
         
         // Ubicación del archivo y reproducirlo
         
-        let videoString: String? = Bundle.main.path(forResource: "sample", ofType: ".mp4")
+        let videoString: String? = Bundle.main.path(forResource: "artesanias", ofType: ".mp4")
         if let url = videoString{
             let videoURL = NSURL(fileURLWithPath: url)
             self.player = AVPlayer(url: videoURL as URL)

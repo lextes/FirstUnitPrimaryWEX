@@ -62,6 +62,7 @@ class MultipleSoundsBViewController: UIViewController {
         catch{
             print(error)
         }
+    
     }
     
     override func didReceiveMemoryWarning() {

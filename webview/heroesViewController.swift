@@ -26,7 +26,7 @@ class heroesViewController: UIViewController {
         super.viewDidLoad()
         
         do{
-            but1 = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "up", ofType: "mp3")!))
+            but1 = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "vicenteSuarez", ofType: "m4a")!))
             but1.prepareToPlay()
         }
         catch{
@@ -34,7 +34,7 @@ class heroesViewController: UIViewController {
         }
         
         do{
-            but2 = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "boing", ofType: "mp3")!))
+            but2 = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "agustinMelgar", ofType: "m4a")!))
             but2.prepareToPlay()
         }
         catch{
@@ -42,28 +42,28 @@ class heroesViewController: UIViewController {
         }
         
         do{
-            but3 = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "error", ofType: "mp3")!))
+            but3 = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "juanEscutia", ofType: "m4a")!))
             but3.prepareToPlay()
         }
         catch{
             print(error)
         }
         do{
-            but4 = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "magico", ofType: "mp3")!))
+            but4 = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "franciscoMarquez", ofType: "m4a")!))
             but4.prepareToPlay()
         }
         catch{
             print(error)
         }
         do{
-            but5 = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "trin", ofType: "mp3")!))
+            but5 = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "fernandoMontes", ofType: "m4a")!))
             but5.prepareToPlay()
         }
         catch{
             print(error)
         }
         do{
-            but6 = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "zip", ofType: "mp3")!))
+            but6 = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "juanBarrera", ofType: "m4a")!))
             but6.prepareToPlay()
         }
         catch{
