@@ -607,6 +607,10 @@
                                     <action selector="reset:" destination="1gM-8s-jhD" eventType="touchUpInside" id="o7N-Mp-njo"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="colorear" translatesAutoresizingMaskIntoConstraints="NO" id="4VK-5X-thD">
+                                <rect key="frame" x="572" y="114" width="122" height="103"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -768,7 +772,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0X4-95-G7m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6043" y="-2167"/>
+            <point key="canvasLocation" x="5981" y="-2167"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ghB-P3-Ulw">
@@ -4144,6 +4148,7 @@
         <image name="blue" width="120" height="456"/>
         <image name="camera" width="102" height="220"/>
         <image name="castle" width="251" height="161"/>
+        <image name="colorear" width="126" height="106"/>
         <image name="cuadroFiesta" width="629" height="404"/>
         <image name="flechaBACK" width="484" height="336"/>
         <image name="flechaFORW" width="484" height="336"/>
