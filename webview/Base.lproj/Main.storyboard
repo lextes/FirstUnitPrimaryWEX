@@ -607,10 +607,6 @@
                                     <action selector="reset:" destination="1gM-8s-jhD" eventType="touchUpInside" id="o7N-Mp-njo"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="colorear" translatesAutoresizingMaskIntoConstraints="NO" id="4VK-5X-thD">
-                                <rect key="frame" x="572" y="114" width="122" height="103"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -4148,7 +4144,6 @@
         <image name="blue" width="120" height="456"/>
         <image name="camera" width="102" height="220"/>
         <image name="castle" width="251" height="161"/>
-        <image name="colorear" width="126" height="106"/>
         <image name="cuadroFiesta" width="629" height="404"/>
         <image name="flechaBACK" width="484" height="336"/>
         <image name="flechaFORW" width="484" height="336"/>
@@ -4159,18 +4154,18 @@
         <image name="foto3" width="400" height="267"/>
         <image name="fotosAB" width="441" height="612"/>
         <image name="fotosCD" width="441" height="612"/>
-        <image name="geography1_1" width="807" height="1027"/>
-        <image name="geography1_2" width="807" height="1027"/>
+        <image name="geography1_1" width="520" height="716"/>
+        <image name="geography1_2" width="520" height="703"/>
         <image name="green" width="119" height="455"/>
         <image name="hidalgo" width="294" height="281"/>
-        <image name="history1_1" width="807" height="1043"/>
-        <image name="history1_2" width="807" height="1043"/>
-        <image name="history1_3" width="807" height="1035"/>
-        <image name="history1_4" width="807" height="1035"/>
-        <image name="history1_5" width="807" height="1013"/>
-        <image name="history1_6" width="807" height="1013"/>
-        <image name="history1_7" width="807" height="1013"/>
-        <image name="history1_8" width="807" height="1013"/>
+        <image name="history1_1" width="520" height="714"/>
+        <image name="history1_2" width="520" height="713"/>
+        <image name="history1_3" width="520" height="708"/>
+        <image name="history1_4" width="945" height="1289"/>
+        <image name="history1_5" width="965" height="1260"/>
+        <image name="history1_6" width="520" height="693"/>
+        <image name="history1_7" width="520" height="693"/>
+        <image name="history1_8" width="520" height="693"/>
         <image name="inRepair" width="591" height="591"/>
         <image name="kid1" width="100" height="129"/>
         <image name="kid2" width="100" height="125"/>
@@ -4189,37 +4184,37 @@
         <image name="phone" width="186" height="108"/>
         <image name="pink" width="119" height="455"/>
         <image name="proyector" width="166" height="139"/>
-        <image name="prueba_test1" width="546" height="713"/>
-        <image name="prueba_test10" width="555" height="733"/>
-        <image name="prueba_test2" width="546" height="713"/>
-        <image name="prueba_test3" width="546" height="713"/>
-        <image name="prueba_test4" width="546" height="713"/>
-        <image name="prueba_test5" width="546" height="713"/>
-        <image name="prueba_test6" width="555" height="732"/>
-        <image name="prueba_test7" width="555" height="732"/>
-        <image name="prueba_test8" width="556" height="732"/>
-        <image name="prueba_test9" width="556" height="732"/>
+        <image name="prueba_test1" width="528" height="702"/>
+        <image name="prueba_test10" width="542" height="719"/>
+        <image name="prueba_test2" width="526" height="700"/>
+        <image name="prueba_test3" width="526" height="700"/>
+        <image name="prueba_test4" width="526" height="700"/>
+        <image name="prueba_test5" width="526" height="700"/>
+        <image name="prueba_test6" width="542" height="719"/>
+        <image name="prueba_test7" width="542" height="719"/>
+        <image name="prueba_test8" width="543" height="725"/>
+        <image name="prueba_test9" width="543" height="719"/>
         <image name="radio" width="162" height="167"/>
         <image name="red" width="120" height="456"/>
-        <image name="socialUnit1_1" width="522" height="698"/>
-        <image name="socialUnit1_10" width="545" height="706"/>
-        <image name="socialUnit1_11" width="743" height="963"/>
-        <image name="socialUnit1_12" width="743" height="963"/>
-        <image name="socialUnit1_13" width="743" height="987"/>
-        <image name="socialUnit1_14" width="743" height="987"/>
-        <image name="socialUnit1_15" width="564" height="723"/>
-        <image name="socialUnit1_16" width="743" height="987"/>
-        <image name="socialUnit1_17" width="743" height="987"/>
-        <image name="socialUnit1_18" width="545" height="714"/>
-        <image name="socialUnit1_19" width="743" height="973"/>
+        <image name="socialUnit1_1" width="524" height="702"/>
+        <image name="socialUnit1_10" width="520" height="693"/>
+        <image name="socialUnit1_11" width="520" height="693"/>
+        <image name="socialUnit1_12" width="520" height="693"/>
+        <image name="socialUnit1_13" width="520" height="710"/>
+        <image name="socialUnit1_14" width="520" height="709"/>
+        <image name="socialUnit1_15" width="553" height="710"/>
+        <image name="socialUnit1_16" width="520" height="710"/>
+        <image name="socialUnit1_17" width="520" height="710"/>
+        <image name="socialUnit1_18" width="520" height="701"/>
+        <image name="socialUnit1_19" width="520" height="701"/>
         <image name="socialUnit1_2" width="522" height="698"/>
         <image name="socialUnit1_3" width="522" height="698"/>
         <image name="socialUnit1_4" width="522" height="698"/>
-        <image name="socialUnit1_5" width="522" height="698"/>
+        <image name="socialUnit1_5" width="520" height="693"/>
         <image name="socialUnit1_6" width="522" height="698"/>
-        <image name="socialUnit1_7" width="522" height="698"/>
-        <image name="socialUnit1_8" width="545" height="706"/>
-        <image name="socialUnit1_9" width="743" height="963"/>
+        <image name="socialUnit1_7" width="520" height="693"/>
+        <image name="socialUnit1_8" width="520" height="693"/>
+        <image name="socialUnit1_9" width="520" height="693"/>
         <image name="teal" width="120" height="461"/>
         <image name="tree" width="308" height="318"/>
         <image name="treeA" width="407" height="205"/>
