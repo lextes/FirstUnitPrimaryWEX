@@ -37,7 +37,7 @@ class Animated4ButtonViewController: UIViewController {
     
     
     @IBAction func sync(_ sender: Any) {
-        
+    
         popUp.layer.anchorPoint = CGPoint(x: 0.5, y: 0)
         popUp.center.y = popUp.center.y - (popUp.frame.height / 2)
         popUp.transform = CGAffineTransform(rotationAngle: 1)
