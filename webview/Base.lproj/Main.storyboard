@@ -697,12 +697,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondoFinleccion" translatesAutoresizingMaskIntoConstraints="NO" id="8Mh-Io-Kw1">
-                                <rect key="frame" x="-19" y="-15" width="807" height="1039"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EndScienceLess1" translatesAutoresizingMaskIntoConstraints="NO" id="8Mh-Io-Kw1">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zKK-cC-Lbu">
-                                <rect key="frame" x="348" y="890" width="182" height="114"/>
+                                <rect key="frame" x="440" y="734" width="263" height="189"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="flechaBACK"/>
                                 <connections>
@@ -715,7 +715,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0X4-95-G7m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5981" y="-2167"/>
+            <point key="canvasLocation" x="5980.46875" y="-2167.3828125"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ghB-P3-Ulw">
@@ -3997,6 +3997,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="EndScienceLess1" width="1000" height="1286"/>
         <image name="Geobrother" width="274" height="195"/>
         <image name="Geofather" width="274" height="196"/>
         <image name="Geojuanita" width="274" height="195"/>
@@ -4101,9 +4102,9 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="X4Z-pG-jUf"/>
-        <segue reference="3ek-nY-pVD"/>
         <segue reference="9Nd-Sh-Nsg"/>
         <segue reference="rHE-kT-9zw"/>
+        <segue reference="ja9-nF-GTc"/>
         <segue reference="TJ0-J7-zoq"/>
     </inferredMetricsTieBreakers>
 </document>
