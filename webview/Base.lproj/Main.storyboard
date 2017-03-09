@@ -3717,7 +3717,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NUP-QR-KbV">
-                                <rect key="frame" x="83" y="376" width="304" height="279"/>
+                                <rect key="frame" x="80" y="362" width="304" height="279"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.82788026332855225" green="0.22832116484642029" blue="0.29718968272209167" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
