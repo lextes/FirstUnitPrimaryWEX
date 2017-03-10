@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -186,9 +186,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="prueba_test1" translatesAutoresizingMaskIntoConstraints="NO" id="2g0-qw-8RY">
-                                <rect key="frame" x="-12" y="-10" width="780" height="1034"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="prueba_test1" translatesAutoresizingMaskIntoConstraints="NO" id="2g0-qw-8RY">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ATz-ql-4YH">
                                 <rect key="frame" x="362" y="547" width="115" height="30"/>
@@ -284,6 +283,12 @@
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2g0-qw-8RY" firstAttribute="centerY" secondItem="QJg-Eh-7nK" secondAttribute="centerY" id="54W-tc-pOI"/>
+                            <constraint firstItem="2g0-qw-8RY" firstAttribute="height" secondItem="QJg-Eh-7nK" secondAttribute="height" id="BVj-mf-m7T"/>
+                            <constraint firstItem="2g0-qw-8RY" firstAttribute="width" secondItem="QJg-Eh-7nK" secondAttribute="width" id="E7g-Ac-Fqv"/>
+                            <constraint firstItem="2g0-qw-8RY" firstAttribute="centerX" secondItem="QJg-Eh-7nK" secondAttribute="centerX" id="cZj-k3-vxk"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2sM-Os-sLr" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2347,10 +2352,6 @@
                                     <action selector="playVideo:" destination="xQX-Bf-RcM" eventType="touchUpInside" id="vWW-Pz-NwJ"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="letreroA" translatesAutoresizingMaskIntoConstraints="NO" id="tiu-Lo-896">
-                                <rect key="frame" x="55" y="552" width="666" height="285"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ul4-Ar-Scg">
                                 <rect key="frame" x="289" y="915" width="191" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2359,38 +2360,63 @@
                                     <segue destination="q5H-lK-eGg" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="O90-x6-Qpg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="16o-dV-et1">
-                                <rect key="frame" x="147" y="729" width="74" height="66"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kpa-iH-Kkl">
+                                <rect key="frame" x="35" y="532" width="706" height="325"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title=" " image="ask1"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PFX-91-SgX">
-                                <rect key="frame" x="250" y="729" width="74" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title=" " image="ask2"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mFK-Ha-OdX">
-                                <rect key="frame" x="355" y="729" width="74" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title=" " image="ask3"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jgH-bk-WhM">
-                                <rect key="frame" x="454" y="729" width="74" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title=" " image="ask4"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kEO-zE-Oti">
-                                <rect key="frame" x="556" y="728" width="74" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title=" " image="ask5"/>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="inRepair" translatesAutoresizingMaskIntoConstraints="NO" id="blR-9R-46L">
-                                <rect key="frame" x="214" y="244" width="416" height="328"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="letreroA" translatesAutoresizingMaskIntoConstraints="NO" id="tiu-Lo-896">
+                                        <rect key="frame" x="20" y="20" width="666" height="285"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="16o-dV-et1">
+                                        <rect key="frame" x="112" y="197" width="74" height="66"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title=" " image="ask1"/>
+                                        <connections>
+                                            <action selector="seleccionar1:" destination="xQX-Bf-RcM" eventType="touchUpInside" id="FER-ti-CnR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PFX-91-SgX">
+                                        <rect key="frame" x="215" y="197" width="74" height="66"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title=" " image="ask2"/>
+                                        <connections>
+                                            <action selector="seleccionar2:" destination="xQX-Bf-RcM" eventType="touchUpInside" id="mEz-IW-Oa7"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mFK-Ha-OdX">
+                                        <rect key="frame" x="320" y="197" width="74" height="66"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title=" " image="ask3"/>
+                                        <connections>
+                                            <action selector="seleccionar3:" destination="xQX-Bf-RcM" eventType="touchUpInside" id="z9E-U7-HVu"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jgH-bk-WhM">
+                                        <rect key="frame" x="419" y="197" width="74" height="66"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title=" " image="ask4"/>
+                                        <connections>
+                                            <action selector="seleccionar4:" destination="xQX-Bf-RcM" eventType="touchUpInside" id="yf9-ll-qdf"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kEO-zE-Oti">
+                                        <rect key="frame" x="521" y="196" width="74" height="66"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title=" " image="ask5"/>
+                                        <connections>
+                                            <action selector="seleccionar5:" destination="xQX-Bf-RcM" eventType="touchUpInside" id="xEI-j9-Q2o"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="viewButtons" destination="Kpa-iH-Kkl" id="ThE-AT-trJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0cp-Kp-ier" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -3045,7 +3071,7 @@
         <!--View Controller-->
         <scene sceneID="ID7-gz-LRZ">
             <objects>
-                <viewController id="Ydb-86-InO" sceneMemberID="viewController">
+                <viewController id="Ydb-86-InO" customClass="SSL5U1ViewController" customModule="First_Unit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dUO-PG-w4N"/>
                         <viewControllerLayoutGuide type="bottom" id="FLy-7B-oF4"/>
@@ -3054,7 +3080,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="socialUnit1_18" translatesAutoresizingMaskIntoConstraints="NO" id="LkS-Mr-xjb">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="socialUnit1_18" translatesAutoresizingMaskIntoConstraints="NO" id="LkS-Mr-xjb">
                                 <rect key="frame" x="-4" y="-14" width="776" height="1038"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -3066,13 +3092,33 @@
                                     <segue destination="KZm-gt-UGW" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Zb6-kH-AGa"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="inRepair" translatesAutoresizingMaskIntoConstraints="NO" id="844-TU-fXf">
-                                <rect key="frame" x="159" y="348" width="416" height="328"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hQB-HZ-Ydt" customClass="ImageSlideshow" customModule="ImageSlideshow">
+                                <rect key="frame" x="166.5" y="357" width="435" height="310"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="435" id="Hbf-67-nH2"/>
+                                    <constraint firstAttribute="height" constant="310" id="thW-eg-67g"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lZA-0l-lqH">
+                                <rect key="frame" x="395" y="729" width="274" height="171"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <state key="normal" title="Button" backgroundImage="Image1"/>
+                                <connections>
+                                    <action selector="showSlide:" destination="Ydb-86-InO" eventType="touchUpInside" id="JYV-Hj-poH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hQB-HZ-Ydt" firstAttribute="centerY" secondItem="qZ0-vW-uTR" secondAttribute="centerY" id="Vf7-z9-f5y"/>
+                            <constraint firstItem="hQB-HZ-Ydt" firstAttribute="centerX" secondItem="qZ0-vW-uTR" secondAttribute="centerX" id="aJF-Ga-n50"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imgFondo" destination="LkS-Mr-xjb" id="v20-zc-X0f"/>
+                        <outlet property="slideImagnes" destination="hQB-HZ-Ydt" id="118-vc-k3a"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xMm-Wf-4IN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -4133,6 +4179,7 @@
         <image name="Geofather" width="274" height="196"/>
         <image name="Geojuanita" width="274" height="195"/>
         <image name="Geomother" width="275" height="196"/>
+        <image name="Image1" width="472" height="378"/>
         <image name="ResetIcon" width="416" height="415"/>
         <image name="VIVAMexico" width="299" height="42"/>
         <image name="W LOGO" width="442" height="374"/>
@@ -4187,9 +4234,9 @@
         <image name="phone" width="186" height="108"/>
         <image name="pink" width="119" height="455"/>
         <image name="proyector" width="166" height="139"/>
-        <image name="prueba_test1" width="716" height="954"/>
+        <image name="prueba_test1" width="358" height="477"/>
         <image name="prueba_test10" width="542" height="719"/>
-        <image name="prueba_test2" width="526" height="700"/>
+        <image name="prueba_test2" width="263" height="350"/>
         <image name="prueba_test3" width="526" height="700"/>
         <image name="prueba_test4" width="526" height="700"/>
         <image name="prueba_test5" width="526" height="700"/>
@@ -4233,10 +4280,10 @@
         <image name="yellow" width="120" height="455"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ja9-nF-GTc"/>
         <segue reference="X4Z-pG-jUf"/>
         <segue reference="9Nd-Sh-Nsg"/>
-        <segue reference="rHE-kT-9zw"/>
+        <segue reference="V0H-ut-dPF"/>
+        <segue reference="ja9-nF-GTc"/>
         <segue reference="TJ0-J7-zoq"/>
     </inferredMetricsTieBreakers>
 </document>
