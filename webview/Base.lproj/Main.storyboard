@@ -20,10 +20,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo_principal" translatesAutoresizingMaskIntoConstraints="NO" id="DhI-r6-zVM">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="1044"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fiA-3z-d9K">
                                 <rect key="frame" x="261" y="436" width="108" height="81"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -31,24 +27,76 @@
                                     <segue destination="3kt-Sv-G7s" kind="show" id="V0H-ut-dPF"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Previous Launch" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="eHB-ET-OJI">
-                                <rect key="frame" x="20" y="152" width="240" height="128"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="eHB-ET-OJI">
+                                <rect key="frame" x="217" y="262" width="335" height="390"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Animación introductoria 
+Launch</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="emW-1C-5PG">
+                                <rect key="frame" x="384" y="741" width="188" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <state key="normal" title=" Next">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="J13-eZ-1zU" kind="show" id="qkX-oC-zsK"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="0.25634386050851443" blue="0.19117100808712673" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-346" y="163"/>
+            <point key="canvasLocation" x="-2144.53125" y="154.6875"/>
         </scene>
-        <!--Animated1-->
+        <!--View Controller-->
+        <scene sceneID="AgI-Qd-F0X">
+            <objects>
+                <viewController id="J13-eZ-1zU" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="T3P-VH-j9N"/>
+                        <viewControllerLayoutGuide type="bottom" id="jCb-ba-8Q4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Wdm-Uu-LMI">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Cuadro de log in" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zaG-2L-Ebs">
+                                <rect key="frame" x="217" y="293" width="269" height="255"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tcm-T2-2hV">
+                                <rect key="frame" x="491" y="764" width="188" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <state key="normal" title=" Next">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Dvt-6n-goA" kind="show" id="mek-sX-c6E"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.66115835171144222" green="0.94348958329999999" blue="0.28018429204376449" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qkG-3m-OiJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1383" y="158"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="CC0-oQ-W1p">
             <objects>
-                <viewController id="AGj-nI-83l" customClass="animated1" customModule="First_Unit" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="AGj-nI-83l" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CfK-NT-350"/>
                         <viewControllerLayoutGuide type="bottom" id="hc0-9v-4fx"/>
@@ -57,11 +105,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hBZ-zY-Rvu">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </webView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CSo-DX-pIh">
                                 <rect key="frame" x="293" y="835" width="191" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -70,16 +113,20 @@
                                     <segue destination="Z6o-Xv-FL8" kind="show" id="vyP-d7-00H"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Animación para Science" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jDi-dD-jao">
+                                <rect key="frame" x="187" y="286" width="335" height="255"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
-                        <color key="backgroundColor" red="0.92941176469999998" green="0.56470588239999997" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="0.2627450980392157" blue="0.19215686274509802" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <connections>
-                        <outlet property="webView" destination="hBZ-zY-Rvu" id="UhA-NT-A4A"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hlz-IT-pbT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="840.625" y="-1117.3828125"/>
+            <point key="canvasLocation" x="1085" y="-2163"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="oCa-nc-c31">
@@ -166,7 +213,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.29812061143644886" green="0.41650176609198208" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.66274509803921566" green="0.94509803921568625" blue="0.27843137254901962" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cqo-qx-7Ns" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -274,12 +321,15 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SkQ-UQ-w4b">
-                                <rect key="frame" x="18" y="903" width="196" height="133"/>
+                                <rect key="frame" x="20" y="931" width="134" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="flechaBACK"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <segue destination="Z6o-Xv-FL8" kind="show" id="adk-F2-UoR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l0g-cY-PE0">
-                                <rect key="frame" x="560" y="903" width="191" height="132"/>
+                                <rect key="frame" x="612" y="931" width="132" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
@@ -358,11 +408,6 @@
                                 <fontDescription key="fontDescription" name="ArialHebrew" family="Arial Hebrew" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Mc-Rb-QxW">
-                                <rect key="frame" x="18" y="906" width="196" height="133"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="flechaBACK"/>
-                            </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" allowsEditingTextAttributes="YES" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CAH-5o-FAT">
                                 <rect key="frame" x="459" y="765" width="122" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -371,12 +416,20 @@
                                 <fontDescription key="fontDescription" name="ArialHebrew" family="Arial Hebrew" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AKL-px-Mzc">
-                                <rect key="frame" x="557" y="907" width="191" height="132"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LY9-Po-6Xc">
+                                <rect key="frame" x="20" y="927" width="134" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <segue destination="xNZ-6i-2Bs" kind="show" id="w4V-y2-7yI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jxk-HM-dgP">
+                                <rect key="frame" x="612" y="927" width="132" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="9NG-fg-Wwl" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="jfp-o7-u41"/>
+                                    <segue destination="9NG-fg-Wwl" kind="show" id="faD-wz-yqB"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -500,17 +553,20 @@
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XWK-GC-Nfh">
-                                <rect key="frame" x="18" y="906" width="196" height="133"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UaN-3s-lOp">
+                                <rect key="frame" x="20" y="931" width="134" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="flechaBACK"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <segue destination="foT-IR-hhp" kind="show" id="UeA-mo-M8f"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Zy-nX-k5j">
-                                <rect key="frame" x="566" y="910" width="182" height="114"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qKA-TJ-6ZT">
+                                <rect key="frame" x="612" y="931" width="132" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="1gM-8s-jhD" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="lZm-eH-Fzt"/>
+                                    <segue destination="1gM-8s-jhD" kind="show" id="aHH-V1-YLB"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -537,14 +593,6 @@
                                 <rect key="frame" x="-19" y="-15" width="807" height="1040"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8z4-nD-uzo">
-                                <rect key="frame" x="564" y="912" width="191" height="132"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="flechaFORW"/>
-                                <connections>
-                                    <segue destination="oxy-aR-ORp" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Xe5-ff-Kde"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MKN-eR-JMz">
                                 <rect key="frame" x="49" y="945" width="25" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -602,7 +650,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AX7-Qy-Xge">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1025"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Whv-Gg-Ezh">
@@ -611,6 +659,22 @@
                                 <state key="normal" title="Button" image="ResetIcon"/>
                                 <connections>
                                     <action selector="reset:" destination="1gM-8s-jhD" eventType="touchUpInside" id="o7N-Mp-njo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tOl-dl-Y2R">
+                                <rect key="frame" x="636" y="927" width="132" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                                <connections>
+                                    <segue destination="oxy-aR-ORp" kind="show" id="edl-Li-wOH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FZI-9M-k9a">
+                                <rect key="frame" x="536" y="929" width="134" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <segue destination="9NG-fg-Wwl" kind="show" id="bR6-0t-ALG"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -667,16 +731,8 @@
                                     <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="rgj-0y-k5v"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pni-jf-G97">
-                                <rect key="frame" x="564" y="905" width="191" height="132"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="flechaFORW"/>
-                                <connections>
-                                    <segue destination="IvH-6C-VfC" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="EAh-BR-7WS"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BlJ-qU-VrD">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="1037"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1025"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e5c-P4-fo2">
@@ -686,6 +742,22 @@
                                 <connections>
                                     <action selector="reset:" destination="oxy-aR-ORp" eventType="touchUpInside" id="KCm-5O-NvP"/>
                                     <action selector="reset:" destination="1gM-8s-jhD" eventType="touchUpInside" id="XjE-ni-Avz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DHq-Gz-MQ8">
+                                <rect key="frame" x="536" y="938" width="134" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <segue destination="1gM-8s-jhD" kind="show" id="a6W-F9-n2R"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jb6-3Q-Mjv">
+                                <rect key="frame" x="636" y="936" width="132" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                                <connections>
+                                    <segue destination="IvH-6C-VfC" kind="show" id="5e8-Ze-q42"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -732,6 +804,44 @@
             <point key="canvasLocation" x="5980.46875" y="-2167.3828125"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="UCA-Dx-ge8">
+            <objects>
+                <viewController id="Dvt-6n-goA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bbb-Rh-x0A"/>
+                        <viewControllerLayoutGuide type="bottom" id="24n-56-btC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bxB-4O-RzS">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Animación previa para escoger materia" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RMg-cq-qTj">
+                                <rect key="frame" x="217" y="251" width="335" height="255"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jA7-0d-hPi">
+                                <rect key="frame" x="508" y="780" width="188" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <state key="normal" title=" Next">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="3kt-Sv-G7s" kind="show" id="w0q-BB-Xcb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.25490196078431371" blue="0.19215686274509802" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m87-71-bFs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-680" y="158"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="ghB-P3-Ulw">
             <objects>
                 <viewController id="3kt-Sv-G7s" sceneMemberID="viewController">
@@ -754,7 +864,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="50"/>
                                 <state key="normal" title="Science">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="AGj-nI-83l" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="a28-mZ-N93"/>
@@ -765,10 +875,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="50"/>
                                 <state key="normal" title="Geography">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="dWA-TT-g8c" kind="show" id="v4K-za-Vzl"/>
+                                    <segue destination="P2e-Xp-FFd" kind="show" id="lo7-om-Jhx"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z1x-ky-cP0">
@@ -776,10 +886,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="50"/>
                                 <state key="normal" title="Social Studies">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="4ja-sR-3g4" kind="show" id="qzx-pz-1bS"/>
+                                    <segue destination="TLX-eN-WSF" kind="show" id="JfB-8t-2Va"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vdQ-9t-yRg">
@@ -787,10 +897,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="50"/>
                                 <state key="normal" title="History">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="QaT-mV-dKc" kind="show" id="9Nd-Sh-Nsg"/>
+                                    <segue destination="NuV-C4-qC7" kind="show" id="U69-d8-c1d"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="material" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cf0-hx-Kee">
@@ -808,12 +918,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.081329414160000002" green="0.2120603003" blue="0.48563701920000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.66274509803921566" green="0.94509803921568625" blue="0.27843137254901962" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ski-9K-lio" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="403" y="159"/>
+            <point key="canvasLocation" x="30" y="158"/>
         </scene>
         <!--Draw View Controller-->
         <scene sceneID="Gjd-E6-z4y">
@@ -895,17 +1005,9 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="knV-LE-h5O">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1025"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OrW-6e-d8W">
-                                <rect key="frame" x="564" y="912" width="191" height="132"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="flechaFORW"/>
-                                <connections>
-                                    <segue destination="3Td-4r-0Hy" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="oq4-KI-BVl"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7kY-rS-OOV">
                                 <rect key="frame" x="447" y="953" width="72" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -914,6 +1016,22 @@
                                     <action selector="reset:" destination="myO-lp-Fcf" eventType="touchUpInside" id="GBF-iW-e5Z"/>
                                     <action selector="reset:" destination="1gM-8s-jhD" eventType="touchUpInside" id="db9-iM-dED"/>
                                     <action selector="reset:" destination="oxy-aR-ORp" eventType="touchUpInside" id="nGJ-ii-kmb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FDd-X2-qro">
+                                <rect key="frame" x="536" y="930" width="134" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <segue destination="Z6o-Xv-FL8" kind="show" id="1Cl-Nv-Bz7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jop-4z-OH0">
+                                <rect key="frame" x="636" y="928" width="132" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                                <connections>
+                                    <segue destination="3Td-4r-0Hy" kind="show" id="QZY-fp-4na"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -943,15 +1061,6 @@
                                 <rect key="frame" x="-34" y="-35" width="802" height="1059"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N41-OL-LCf">
-                                <rect key="frame" x="136" y="700" width="154" height="69"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.43956741690635681" green="0.84001761674880981" blue="0.11150351911783218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="30"/>
-                                <state key="normal" title="Washing">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XKd-5t-L9Y">
                                 <rect key="frame" x="438" y="700" width="154" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -969,30 +1078,33 @@
                                 <rect key="frame" x="397" y="314" width="237" height="176"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="inRepair" translatesAutoresizingMaskIntoConstraints="NO" id="CWi-P7-hUI">
-                                <rect key="frame" x="136" y="529" width="430" height="375"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uff-XI-mBK">
+                                <rect key="frame" x="20" y="927" width="134" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.82788026332855225" green="0.22832116484642029" blue="0.29718968272209167" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uVq-Wr-siW">
-                                <rect key="frame" x="18" y="904" width="196" height="133"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="flechaBACK"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <segue destination="myO-lp-Fcf" kind="show" id="fu8-P8-x8R"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GL8-Jx-kCl">
-                                <rect key="frame" x="557" y="905" width="191" height="132"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Scr-NN-T7A">
+                                <rect key="frame" x="612" y="927" width="132" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="DAf-VD-JiH" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Z6w-He-r0x"/>
+                                    <segue destination="DAf-VD-JiH" kind="show" id="VDD-JO-Nt4"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2zp-8t-WTY">
+                                <rect key="frame" x="102" y="613" width="237" height="177"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="GifView" destination="8iy-dr-Ian" id="hrz-BJ-zu7"/>
                         <outlet property="GifView2" destination="PTK-U0-P5Q" id="xdq-fb-15h"/>
+                        <outlet property="GifView3" destination="2zp-8t-WTY" id="VIg-J9-HP8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OL3-D7-XGm" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1079,16 +1191,8 @@
                                     <action selector="colorsPicked:" destination="DAf-VD-JiH" eventType="touchUpInside" id="zYV-z0-BW1"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dwV-rl-UP6">
-                                <rect key="frame" x="574" y="919" width="182" height="114"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="flechaFORW"/>
-                                <connections>
-                                    <segue destination="ckx-IK-tIM" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="hPv-u5-qDf"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uf2-I9-OGl">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="1025"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gfd-h1-JtD">
@@ -1099,6 +1203,22 @@
                                     <action selector="reset:" destination="1gM-8s-jhD" eventType="touchUpInside" id="7Xb-dh-Irz"/>
                                     <action selector="reset:" destination="oxy-aR-ORp" eventType="touchUpInside" id="865-WY-K9H"/>
                                     <action selector="reset:" destination="DAf-VD-JiH" eventType="touchUpInside" id="lkc-8w-h1g"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Rg-YA-rq9">
+                                <rect key="frame" x="536" y="930" width="134" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <segue destination="3Td-4r-0Hy" kind="show" id="gTj-kD-AfO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XZr-e6-FwY">
+                                <rect key="frame" x="636" y="928" width="132" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                                <connections>
+                                    <segue destination="ckx-IK-tIM" kind="show" id="hwA-gq-OWq"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1176,17 +1296,20 @@
                                 <rect key="frame" x="64" y="769" width="173" height="115"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xpr-Fi-0S9">
-                                <rect key="frame" x="18" y="904" width="196" height="133"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qyL-fT-Kdo">
+                                <rect key="frame" x="20" y="931" width="134" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="flechaBACK"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <segue destination="Z6o-Xv-FL8" kind="show" id="Z3d-sd-4aS"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Op6-28-Sc7">
-                                <rect key="frame" x="557" y="904" width="191" height="132"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Bl-Vb-f29">
+                                <rect key="frame" x="612" y="931" width="132" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="QWl-Wz-8cK" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="bY9-Kr-FU7"/>
+                                    <segue destination="QWl-Wz-8cK" kind="show" id="gh2-7f-LT7"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1302,12 +1425,20 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.94348958329999999" green="0.42458956860000002" blue="0.069669698449999998" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ptT-vR-N2N">
-                                <rect key="frame" x="574" y="920" width="182" height="114"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m4F-iE-4sW">
+                                <rect key="frame" x="536" y="939" width="134" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="flechaFORW"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
                                 <connections>
-                                    <segue destination="uYR-NU-lAi" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Pca-jg-30H"/>
+                                    <segue destination="JsI-ds-M2w" kind="show" id="pbr-md-SAa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OcQ-Tu-BeG">
+                                <rect key="frame" x="636" y="937" width="132" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                                <connections>
+                                    <segue destination="uYR-NU-lAi" kind="show" id="A3a-TW-T4Y"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1439,14 +1570,6 @@
                                     <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="wpF-OQ-oqd"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U1m-dF-Fl0">
-                                <rect key="frame" x="557" y="909" width="191" height="132"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="flechaFORW"/>
-                                <connections>
-                                    <segue destination="Jbk-va-Bkw" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Kle-Kc-4wa"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YED-kV-Iv5">
                                 <rect key="frame" x="0.0" y="5" width="768" height="1020"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1460,6 +1583,22 @@
                                     <action selector="reset:" destination="bP6-Qn-dpV" eventType="touchUpInside" id="LYD-Kq-WyY"/>
                                     <action selector="reset:" destination="oxy-aR-ORp" eventType="touchUpInside" id="Nzr-K1-TMH"/>
                                     <action selector="reset:" destination="QWl-Wz-8cK" eventType="touchUpInside" id="fsx-sU-Thg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jI6-wi-Oty">
+                                <rect key="frame" x="536" y="939" width="134" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <segue destination="4ja-sR-3g4" kind="show" id="YQB-LQ-ach"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jku-mt-doZ">
+                                <rect key="frame" x="636" y="937" width="132" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                                <connections>
+                                    <segue destination="Jbk-va-Bkw" kind="show" id="AQy-rw-VeW"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1513,18 +1652,22 @@
                                     <action selector="playButton1:" destination="Jbk-va-Bkw" eventType="touchUpInside" id="sAi-07-TOU"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a2b-cd-XuQ">
-                                <rect key="frame" x="18" y="902" width="196" height="133"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="svU-LO-hNG">
+                                <rect key="frame" x="18" y="929" width="134" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="flechaBACK"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <action selector="stopPlay:" destination="Jbk-va-Bkw" eventType="touchUpInside" id="3SI-Ge-Hyh"/>
+                                    <segue destination="bP6-Qn-dpV" kind="show" id="ziu-pQ-iRv"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hQF-NM-Pkm">
-                                <rect key="frame" x="557" y="902" width="191" height="132"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQ2-vY-weF">
+                                <rect key="frame" x="610" y="929" width="132" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <action selector="stopPlay:" destination="Jbk-va-Bkw" eventType="touchUpInside" id="ge8-S0-LEw"/>
-                                    <segue destination="dtw-Uh-sfa" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="TEK-e8-UBk"/>
+                                    <action selector="stopPlay:" destination="Jbk-va-Bkw" eventType="touchUpInside" id="2e5-Rg-f5k"/>
+                                    <segue destination="dtw-Uh-sfa" kind="show" id="TuG-g7-nf2"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1552,11 +1695,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y9U-NI-CyK">
-                                <rect key="frame" x="18" y="905" width="196" height="133"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="flechaBACK"/>
-                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="olL-p3-EUk">
                                 <rect key="frame" x="76" y="311" width="617" height="243"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1587,12 +1725,20 @@
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rXR-Rm-Y3p">
-                                <rect key="frame" x="566" y="914" width="182" height="114"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mTQ-OY-Dwm">
+                                <rect key="frame" x="20" y="931" width="134" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="flechaFORW"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
                                 <connections>
-                                    <segue destination="zDe-3E-P9X" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Be4-Xh-X0P"/>
+                                    <segue destination="Jbk-va-Bkw" kind="show" id="CRj-7x-uuy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UGp-51-yqA">
+                                <rect key="frame" x="612" y="931" width="132" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                                <connections>
+                                    <segue destination="zDe-3E-P9X" kind="show" id="lIe-N2-TmL"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1683,14 +1829,6 @@
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vdn-bD-xpo">
-                                <rect key="frame" x="564" y="912" width="191" height="132"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="flechaFORW"/>
-                                <connections>
-                                    <segue destination="kef-Li-oDm" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="dVJ-Vd-YY3"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i6d-36-hnx">
                                 <rect key="frame" x="459" y="956" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1701,6 +1839,22 @@
                                     <action selector="reset:" destination="QWl-Wz-8cK" eventType="touchUpInside" id="goH-RD-A6U"/>
                                     <action selector="reset:" destination="bP6-Qn-dpV" eventType="touchUpInside" id="toV-qq-yjN"/>
                                     <action selector="reset:" destination="oxy-aR-ORp" eventType="touchUpInside" id="yr7-Z5-UDa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EAr-R3-9Gl">
+                                <rect key="frame" x="536" y="937" width="134" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <segue destination="dtw-Uh-sfa" kind="show" id="D4M-dJ-PzE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HzW-7b-JwO">
+                                <rect key="frame" x="636" y="935" width="132" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                                <connections>
+                                    <segue destination="kef-Li-oDm" kind="show" id="126-rD-hYG"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1762,17 +1916,20 @@
                                 <rect key="frame" x="86" y="345" width="78" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qIG-9e-0SH">
-                                <rect key="frame" x="18" y="903" width="196" height="133"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Gl-ry-2jk">
+                                <rect key="frame" x="20" y="933" width="134" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="flechaBACK"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <segue destination="zDe-3E-P9X" kind="show" id="f3k-2v-0Rz"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Cs-Nc-iwn">
-                                <rect key="frame" x="557" y="903" width="191" height="132"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Mb-Va-q5E">
+                                <rect key="frame" x="612" y="933" width="132" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="2Fx-ht-CNA" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="98Q-z0-wae"/>
+                                    <segue destination="2Fx-ht-CNA" kind="show" id="m3G-bd-DhL"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1838,17 +1995,20 @@
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tVd-SF-mPx">
-                                <rect key="frame" x="18" y="907" width="196" height="133"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lf0-Nf-ncd">
+                                <rect key="frame" x="24" y="937" width="134" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="flechaBACK"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <segue destination="kef-Li-oDm" kind="show" id="j43-9k-TVZ"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vro-aW-TJY">
-                                <rect key="frame" x="549" y="907" width="191" height="132"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5d6-sd-ZKf">
+                                <rect key="frame" x="616" y="937" width="132" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="eDk-qc-kld" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="HEC-cW-1Lm"/>
+                                    <segue destination="eDk-qc-kld" kind="show" id="Cch-LS-oyb"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1862,6 +2022,41 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nzv-Sq-uBD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="6053.90625" y="155.859375"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="YWv-gj-fVJ">
+            <objects>
+                <viewController id="TLX-eN-WSF" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wTl-at-Ex5"/>
+                        <viewControllerLayoutGuide type="bottom" id="R5h-cU-FzH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YoC-0X-av9">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vfi-Hk-Dux">
+                                <rect key="frame" x="323" y="853" width="191" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                                <connections>
+                                    <segue destination="4ja-sR-3g4" kind="show" id="Y56-pI-kYR"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Animación para Science" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kBl-aA-7Oi">
+                                <rect key="frame" x="217" y="385" width="335" height="255"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92036962509155273" green="0.34631866216659546" blue="0.27863028645515442" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EyW-ue-Bbu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1084" y="159"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="X4Y-d9-8F2">
@@ -2021,7 +2216,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EbD-1C-F99">
-                                <rect key="frame" x="20" y="361" width="366" height="502"/>
+                                <rect key="frame" x="20" y="338" width="366" height="502"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title=" " image="fotosAB"/>
                                 <connections>
@@ -2029,23 +2224,26 @@
                                     <action selector="sync:" destination="eO5-ir-yeT" eventType="touchUpInside" id="DEg-8o-5B2"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fotosCD" translatesAutoresizingMaskIntoConstraints="NO" id="KWS-3p-sF7">
-                                <rect key="frame" x="20" y="357" width="366" height="505"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AaD-E1-ATE">
+                                <rect key="frame" x="20" y="932" width="134" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KH9-VC-f6I">
-                                <rect key="frame" x="18" y="904" width="196" height="133"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="flechaBACK"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <segue destination="4ja-sR-3g4" kind="show" id="FcI-FD-JVT"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qek-IX-oYt">
-                                <rect key="frame" x="557" y="904" width="191" height="132"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fpr-4v-MHE">
+                                <rect key="frame" x="612" y="932" width="132" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="Rq8-13-4uF" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Ggg-3w-lHs"/>
+                                    <segue destination="Rq8-13-4uF" kind="show" id="s8W-zh-C75"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fotosCD" translatesAutoresizingMaskIntoConstraints="NO" id="KWS-3p-sF7">
+                                <rect key="frame" x="20" y="338" width="366" height="505"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -2103,17 +2301,20 @@
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fmK-7q-TLG">
-                                <rect key="frame" x="18" y="904" width="196" height="133"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="31F-wP-oov">
+                                <rect key="frame" x="20" y="932" width="134" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="flechaBACK"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <segue destination="eO5-ir-yeT" kind="show" id="bGU-s8-WTr"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1qH-8w-6qL">
-                                <rect key="frame" x="557" y="904" width="191" height="132"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hqU-Gx-dnj">
+                                <rect key="frame" x="612" y="932" width="132" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="e06-EQ-A4d" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="QBS-lf-SYT"/>
+                                    <segue destination="e06-EQ-A4d" kind="show" id="oqM-gw-fE9"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2207,16 +2408,8 @@
                                     <action selector="colorsPicked:" destination="zDe-3E-P9X" eventType="touchUpInside" id="pfc-OY-ESW"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PbB-ky-BIx">
-                                <rect key="frame" x="564" y="906" width="191" height="132"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="flechaFORW"/>
-                                <connections>
-                                    <segue destination="A3U-6a-NgE" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="pph-0w-XZb"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="44P-Dr-Mil">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1025"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0PP-lj-8CC">
@@ -2230,6 +2423,22 @@
                                     <action selector="reset:" destination="oxy-aR-ORp" eventType="touchUpInside" id="xVG-gz-8eE"/>
                                     <action selector="reset:" destination="bP6-Qn-dpV" eventType="touchUpInside" id="xme-Cf-KCP"/>
                                     <action selector="reset:" destination="QWl-Wz-8cK" eventType="touchUpInside" id="ynD-bK-TcU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DvO-Ti-WmE">
+                                <rect key="frame" x="536" y="932" width="134" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <segue destination="Rq8-13-4uF" kind="show" id="dip-c7-nCz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Q5-YF-oWJ">
+                                <rect key="frame" x="636" y="930" width="132" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                                <connections>
+                                    <segue destination="A3U-6a-NgE" kind="show" id="mZu-wj-9iv"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2291,25 +2500,12 @@
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0uM-Wy-zmM">
-                                <rect key="frame" x="18" y="904" width="196" height="133"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="flechaBACK"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhK-xO-WNL">
                                 <rect key="frame" x="75" y="390" width="277" height="166"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title=" " image="niños_bicicleta"/>
                                 <connections>
                                     <action selector="playVideo:" destination="xQX-Bf-RcM" eventType="touchUpInside" id="vWW-Pz-NwJ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ul4-Ar-Scg">
-                                <rect key="frame" x="550" y="904" width="191" height="132"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="flechaFORW"/>
-                                <connections>
-                                    <segue destination="q5H-lK-eGg" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="O90-x6-Qpg"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Atv-Zc-pBp">
@@ -2363,6 +2559,22 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cju-jc-DXi">
+                                <rect key="frame" x="21" y="929" width="134" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <segue destination="4ja-sR-3g4" kind="show" id="LCP-JB-gNd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zyA-9T-dwT">
+                                <rect key="frame" x="613" y="929" width="132" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                                <connections>
+                                    <segue destination="q5H-lK-eGg" kind="show" id="bJj-qI-2Tg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -2390,11 +2602,6 @@
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UgL-Co-4cw">
-                                <rect key="frame" x="18" y="904" width="196" height="133"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="flechaBACK"/>
-                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zo3-MR-mlp">
                                 <rect key="frame" x="93" y="470" width="592" height="134"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2425,12 +2632,20 @@
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oD1-9h-4Cr">
-                                <rect key="frame" x="550" y="904" width="191" height="132"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wlW-HC-jVc">
+                                <rect key="frame" x="20" y="927" width="134" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <segue destination="xQX-Bf-RcM" kind="show" id="X4h-b7-QmA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oMA-De-CIR">
+                                <rect key="frame" x="612" y="927" width="132" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="XLh-MM-wTI" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="fWU-es-T0q"/>
+                                    <segue destination="XLh-MM-wTI" kind="show" id="809-Ts-9ua"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2531,14 +2746,6 @@
                                     <action selector="colorsPicked:" destination="zDe-3E-P9X" eventType="touchUpInside" id="osz-MH-Pix"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jR1-im-ldW">
-                                <rect key="frame" x="565" y="907" width="191" height="132"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="flechaFORW"/>
-                                <connections>
-                                    <segue destination="k7g-n2-Jms" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Dni-mZ-ywq"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1YC-6Z-hgP">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1032"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2599,6 +2806,22 @@
                                     <action selector="reset:" destination="QWl-Wz-8cK" eventType="touchUpInside" id="z8U-iD-xVS"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qay-ug-nun">
+                                <rect key="frame" x="536" y="929" width="134" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <segue destination="q5H-lK-eGg" kind="show" id="cxu-bc-Pdg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gk2-XK-kxq">
+                                <rect key="frame" x="636" y="927" width="132" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                                <connections>
+                                    <segue destination="k7g-n2-Jms" kind="show" id="Zm6-FO-sBp"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -2641,6 +2864,41 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="shp-T5-qQ0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4695" y="1591"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0O3-Yk-3WP">
+            <objects>
+                <viewController id="NuV-C4-qC7" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FsN-n9-Wtr"/>
+                        <viewControllerLayoutGuide type="bottom" id="zCA-9B-iKc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xd9-fo-EL0">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qGR-fO-oAe">
+                                <rect key="frame" x="323" y="751" width="191" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                                <connections>
+                                    <segue destination="QaT-mV-dKc" kind="show" id="L2N-oh-rdx"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Animación para history" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="s5b-SJ-Cde">
+                                <rect key="frame" x="217" y="283" width="335" height="255"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.25490196078431371" blue="0.19215686274509802" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FNc-vl-0nc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1084" y="4049"/>
         </scene>
         <!--Text3 View Controller-->
         <scene sceneID="Jqp-l4-jHj">
@@ -2688,17 +2946,20 @@
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oqL-Ue-n0L">
-                                <rect key="frame" x="18" y="907" width="196" height="133"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GCR-An-KMF">
+                                <rect key="frame" x="20" y="929" width="134" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="flechaBACK"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <segue destination="4ja-sR-3g4" kind="show" id="Zyq-PV-K5e"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4f3-kL-dhr">
-                                <rect key="frame" x="551" y="907" width="191" height="132"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2R3-SN-Lty">
+                                <rect key="frame" x="612" y="929" width="132" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="dhs-VU-kOc" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="PA9-p7-vlT"/>
+                                    <segue destination="dhs-VU-kOc" kind="show" id="idV-ZD-rCR"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2792,17 +3053,20 @@
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eCr-vV-Ag4">
-                                <rect key="frame" x="18" y="901" width="196" height="133"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0iK-Jr-t66">
+                                <rect key="frame" x="14" y="927" width="134" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="flechaBACK"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <segue destination="h1T-Er-Gzy" kind="show" id="8D3-M2-xQX"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XEW-kd-rqV">
-                                <rect key="frame" x="557" y="902" width="191" height="132"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ofz-VV-LZr">
+                                <rect key="frame" x="606" y="927" width="132" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="YnM-ga-Izg" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="sFV-km-pu7"/>
+                                    <segue destination="YnM-ga-Izg" kind="show" id="f5e-3D-CBU"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2838,17 +3102,20 @@
                                 <rect key="frame" x="400" y="112" width="203" height="221"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KJH-QY-cbb">
-                                <rect key="frame" x="18" y="901" width="196" height="133"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fle-Us-Eia">
+                                <rect key="frame" x="20" y="932" width="134" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="flechaBACK"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <segue destination="dhs-VU-kOc" kind="show" id="RcP-Me-F7S"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tIN-oP-cLe">
-                                <rect key="frame" x="557" y="902" width="191" height="132"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1b3-Rz-Gpe">
+                                <rect key="frame" x="612" y="932" width="132" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="fmb-b6-OEP" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="waR-IN-3Xk"/>
+                                    <segue destination="fmb-b6-OEP" kind="show" id="1y7-AV-hKd"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2946,17 +3213,20 @@
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oqf-GN-1qg">
-                                <rect key="frame" x="18" y="904" width="196" height="133"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jtO-yn-KNX">
+                                <rect key="frame" x="20" y="933" width="134" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="flechaBACK"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <segue destination="YnM-ga-Izg" kind="show" id="Jri-lf-STk"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yjG-Y6-8Ge">
-                                <rect key="frame" x="557" y="904" width="191" height="132"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eud-mD-25A">
+                                <rect key="frame" x="612" y="933" width="132" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="NSz-xo-em2" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="JSa-AH-FBB"/>
+                                    <segue destination="NSz-xo-em2" kind="show" id="eJN-qZ-FqC"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2987,17 +3257,20 @@
                                 <rect key="frame" x="0.0" y="-17" width="779" height="1041"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jUZ-jv-F5x">
-                                <rect key="frame" x="18" y="907" width="196" height="133"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WXT-ph-zw3">
+                                <rect key="frame" x="20" y="935" width="134" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="flechaBACK"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <segue destination="fmb-b6-OEP" kind="show" id="8vB-o4-9Xi"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dha-Tx-DEG">
-                                <rect key="frame" x="550" y="907" width="191" height="132"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WfL-B5-tfI">
+                                <rect key="frame" x="612" y="935" width="132" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="zn6-yB-uES" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Z8f-V4-3hK"/>
+                                    <segue destination="zn6-yB-uES" kind="show" id="FwR-3T-hyT"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3061,11 +3334,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jp-LU-rWF">
-                                <rect key="frame" x="17" y="903" width="196" height="133"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="flechaBACK"/>
-                            </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2HR-Gy-oKi" userLabel="viewSlider" customClass="ImageSlideshow" customModule="ImageSlideshow">
                                 <rect key="frame" x="187" y="374" width="394" height="276"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -3082,12 +3350,20 @@
                                     <action selector="showSlide:" destination="Ydb-86-InO" eventType="touchUpInside" id="LwY-i8-lpZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6D7-Gt-A3c">
-                                <rect key="frame" x="557" y="903" width="191" height="132"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="96H-eX-ct1">
+                                <rect key="frame" x="20" y="930" width="134" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <segue destination="4ja-sR-3g4" kind="show" id="EsL-0q-SKy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c3X-yd-s3S">
+                                <rect key="frame" x="612" y="930" width="132" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="KZm-gt-UGW" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Zb6-kH-AGa"/>
+                                    <segue destination="KZm-gt-UGW" kind="show" id="n8Y-or-1dq"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3148,17 +3424,20 @@
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ipj-tl-OBD">
-                                <rect key="frame" x="18" y="903" width="196" height="133"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="imz-oe-mnD">
+                                <rect key="frame" x="20" y="930" width="134" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="flechaBACK"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <segue destination="Ydb-86-InO" kind="show" id="uIO-b8-Bwa"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="boO-WJ-zpf">
-                                <rect key="frame" x="550" y="903" width="191" height="132"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WJ6-x6-KNr">
+                                <rect key="frame" x="612" y="930" width="132" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="RQz-2g-gHN" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="sMi-Iw-TPM"/>
+                                    <segue destination="RQz-2g-gHN" kind="show" id="daM-kW-VrT"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3222,15 +3501,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2KC-yu-xnU">
-                                <rect key="frame" x="289" y="908" width="191" height="132"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="flechaFORW"/>
-                                <connections>
-                                    <action selector="StopPlay:" destination="FGU-y8-g2x" eventType="touchUpInside" id="rNT-Hp-kxp"/>
-                                    <segue destination="96R-TD-IvX" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="ett-wU-Ckd"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Avi-yX-bnc">
                                 <rect key="frame" x="279" y="284" width="210" height="191"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -3279,6 +3549,24 @@
                                     <action selector="playButon3:" destination="FGU-y8-g2x" eventType="touchUpInside" id="lG5-zO-y1Y"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OX2-2q-yNn">
+                                <rect key="frame" x="20" y="932" width="134" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <action selector="StopPlay:" destination="FGU-y8-g2x" eventType="touchUpInside" id="eOQ-3J-6kW"/>
+                                    <segue destination="QaT-mV-dKc" kind="show" id="qj5-DP-0r8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="del-1d-SIp">
+                                <rect key="frame" x="612" y="932" width="132" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                                <connections>
+                                    <action selector="StopPlay:" destination="FGU-y8-g2x" eventType="touchUpInside" id="IgR-pw-7F5"/>
+                                    <segue destination="96R-TD-IvX" kind="show" id="re8-C7-4lv"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                 </viewController>
@@ -3303,21 +3591,30 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w2c-Vm-OrP">
-                                <rect key="frame" x="289" y="905" width="191" height="132"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="flechaFORW"/>
-                                <connections>
-                                    <action selector="stopPlay:" destination="96R-TD-IvX" eventType="touchUpInside" id="mcS-SA-ZZb"/>
-                                    <segue destination="KI4-EN-AbS" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="knd-OU-rsI"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GFN-iL-EQO">
-                                <rect key="frame" x="256" y="570" width="256.00000000000091" height="160.99999999999909"/>
+                                <rect key="frame" x="256" y="528" width="256.00000000000091" height="160.99999999999909"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title=" " image="castle"/>
                                 <connections>
                                     <action selector="playButtonA:" destination="96R-TD-IvX" eventType="touchUpInside" id="XKs-1z-pmj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dOW-r3-Jsw">
+                                <rect key="frame" x="20" y="933" width="134" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <action selector="stopPlay:" destination="96R-TD-IvX" eventType="touchUpInside" id="qDm-P2-MVb"/>
+                                    <segue destination="FGU-y8-g2x" kind="show" id="XIX-Zy-Mid"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y9R-MD-4Ps">
+                                <rect key="frame" x="612" y="933" width="132" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                                <connections>
+                                    <action selector="stopPlay:" destination="96R-TD-IvX" eventType="touchUpInside" id="c3L-6i-23F"/>
+                                    <segue destination="KI4-EN-AbS" kind="show" id="Iu2-Ax-ED5"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3357,14 +3654,6 @@
                                     <action selector="reset:" destination="zDe-3E-P9X" eventType="touchUpInside" id="N1A-R4-Pdu"/>
                                     <action selector="reset:" destination="1gM-8s-jhD" eventType="touchUpInside" id="S4C-Gp-kX3"/>
                                     <action selector="reset:" destination="oxy-aR-ORp" eventType="touchUpInside" id="Xa3-xl-kdi"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VTU-6p-G7U">
-                                <rect key="frame" x="566" y="906" width="191" height="132"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="flechaFORW"/>
-                                <connections>
-                                    <segue destination="GHl-je-2ob" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="55o-0I-cCz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZSa-0U-bCk">
@@ -3441,6 +3730,22 @@
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yOK-Dx-XYY">
+                                <rect key="frame" x="536" y="936" width="134" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <segue destination="ZbA-ni-PQ8" kind="show" id="Lr4-E7-hQO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gki-u0-y3Z">
+                                <rect key="frame" x="636" y="934" width="132" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                                <connections>
+                                    <segue destination="GHl-je-2ob" kind="show" id="TQW-RN-iad"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -3530,7 +3835,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.0" blue="0.21587940855625831" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.71283899845410836" green="0.94509803921568625" blue="0.55466604055393642" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="quR-3o-a35" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3586,15 +3891,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HBo-u9-FCR">
-                                <rect key="frame" x="294" y="907" width="191" height="132"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="flechaFORW"/>
-                                <connections>
-                                    <action selector="playButon1:" destination="opa-Sj-BTe" eventType="touchUpInside" id="7JA-jk-eIn"/>
-                                    <segue destination="gUC-hB-SAV" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="3zq-W7-v5R"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cuadroFiesta" translatesAutoresizingMaskIntoConstraints="NO" id="cP3-eL-Ob5">
                                 <rect key="frame" x="125" y="348" width="531" height="360"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -3606,6 +3902,24 @@
                                 <connections>
                                     <action selector="numberPressedWithSender:" destination="opa-Sj-BTe" eventType="touchUpInside" id="Cr3-nE-6Zl"/>
                                     <action selector="sync:" destination="opa-Sj-BTe" eventType="touchUpInside" id="rxM-IO-WZN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hLF-Ih-UyY">
+                                <rect key="frame" x="20" y="931" width="134" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <action selector="playButon1:" destination="opa-Sj-BTe" eventType="touchUpInside" id="zMJ-Aq-Eag"/>
+                                    <segue destination="QaT-mV-dKc" kind="show" id="oAb-aO-EG1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jng-R4-vYu">
+                                <rect key="frame" x="612" y="931" width="132" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                                <connections>
+                                    <action selector="playButon1:" destination="opa-Sj-BTe" eventType="touchUpInside" id="Cwb-Ro-0ME"/>
+                                    <segue destination="gUC-hB-SAV" kind="show" id="Fch-tr-eZF"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3636,14 +3950,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZQi-T2-UtU">
-                                <rect key="frame" x="289" y="913" width="191" height="132"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="flechaFORW"/>
-                                <connections>
-                                    <segue destination="9vH-PK-96N" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="YD0-1x-aor"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KfH-vH-LMO">
                                 <rect key="frame" x="120" y="219" width="251" height="236"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -3657,6 +3963,22 @@
                                 <rect key="frame" x="34" y="165" width="709" height="602"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6oY-rY-Hha">
+                                <rect key="frame" x="20" y="931" width="134" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <segue destination="opa-Sj-BTe" kind="show" id="h01-5W-ogZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ee5-gu-YPg">
+                                <rect key="frame" x="612" y="931" width="132" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                                <connections>
+                                    <segue destination="9vH-PK-96N" kind="show" id="73m-g8-TNn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -3666,7 +3988,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vSr-4L-Bkf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3345.3125" y="4774.8046875"/>
+            <point key="canvasLocation" x="3363" y="4775"/>
         </scene>
         <!--Draw2 View Controller-->
         <scene sceneID="7wU-kL-ucH">
@@ -3755,14 +4077,6 @@
                                     <action selector="colorsPicked:" destination="zDe-3E-P9X" eventType="touchUpInside" id="T4e-5q-mVM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6yI-nm-pYS">
-                                <rect key="frame" x="565" y="905" width="191" height="132"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="flechaFORW"/>
-                                <connections>
-                                    <segue destination="zLo-1i-QEE" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="fGX-M6-BN8"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CX1-0t-vBI">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -3779,6 +4093,22 @@
                                     <action selector="reset:" destination="QWl-Wz-8cK" eventType="touchUpInside" id="W7B-PK-o04"/>
                                     <action selector="reset:" destination="e06-EQ-A4d" eventType="touchUpInside" id="XNW-dY-edm"/>
                                     <action selector="reset:" destination="1gM-8s-jhD" eventType="touchUpInside" id="zxM-4d-ecN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mG5-WJ-N9a">
+                                <rect key="frame" x="536" y="934" width="134" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <segue destination="gsv-m5-t3M" kind="show" id="b5i-DB-Ce3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JOG-3E-gQn">
+                                <rect key="frame" x="636" y="932" width="132" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                                <connections>
+                                    <segue destination="zLo-1i-QEE" kind="show" id="tYy-Hu-37i"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3846,20 +4176,28 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.82788026332855225" green="0.22832116484642029" blue="0.29718968272209167" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TlW-Cm-8sT">
-                                <rect key="frame" x="289" y="910" width="191" height="132"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="flechaFORW"/>
-                                <connections>
-                                    <segue destination="gsv-m5-t3M" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="G3p-aR-BCz"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cAx-6j-teP">
                                 <rect key="frame" x="-17" y="363" width="426" height="281"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title=" " image="artes"/>
                                 <connections>
                                     <action selector="playVideo:" destination="6Ht-vd-tB0" eventType="touchUpInside" id="GuQ-cD-0eg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PVY-VA-HF4">
+                                <rect key="frame" x="19" y="934" width="134" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <segue destination="QaT-mV-dKc" kind="show" id="bis-LJ-S9f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cfl-eN-2bW">
+                                <rect key="frame" x="611" y="934" width="132" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                                <connections>
+                                    <segue destination="gsv-m5-t3M" kind="show" id="Ub2-Aj-64h"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3887,15 +4225,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VLC-uu-HYh">
-                                <rect key="frame" x="289" y="908" width="191" height="132"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="flechaFORW"/>
-                                <connections>
-                                    <action selector="StopPlay:" destination="gsv-m5-t3M" eventType="touchUpInside" id="FhD-n5-qaz"/>
-                                    <segue destination="ZbA-ni-PQ8" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="JYE-AG-Qgz"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NnX-ig-hYQ">
                                 <rect key="frame" x="136" y="463" width="150" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -3944,6 +4273,24 @@
                                     <action selector="playButon2:" destination="gsv-m5-t3M" eventType="touchUpInside" id="97t-iW-ctf"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LkN-j4-oYn">
+                                <rect key="frame" x="20" y="930" width="134" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <action selector="StopPlay:" destination="gsv-m5-t3M" eventType="touchUpInside" id="b8B-mZ-yZI"/>
+                                    <segue destination="6Ht-vd-tB0" kind="show" id="QU1-hS-v7d"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="32I-55-hLh">
+                                <rect key="frame" x="612" y="930" width="132" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                                <connections>
+                                    <action selector="StopPlay:" destination="gsv-m5-t3M" eventType="touchUpInside" id="dI1-Hz-sBy"/>
+                                    <segue destination="ZbA-ni-PQ8" kind="show" id="f8w-jh-MBV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -3968,14 +4315,6 @@
                                 <rect key="frame" x="0.0" y="-17" width="768" height="1041"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LWj-VH-vO4">
-                                <rect key="frame" x="289" y="914" width="191" height="132"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="flechaFORW"/>
-                                <connections>
-                                    <segue destination="bCK-v6-rL3" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Fmt-Bz-3B3"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Geobrother" translatesAutoresizingMaskIntoConstraints="NO" id="JrI-i5-R0g">
                                 <rect key="frame" x="11" y="783" width="204" height="145"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -3996,6 +4335,22 @@
                                 <rect key="frame" x="282" y="772" width="204" height="145"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E0u-Oh-Sol">
+                                <rect key="frame" x="20" y="928" width="134" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <segue destination="1Lw-To-BUt" kind="show" id="U4z-2L-XRw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h4K-Rg-1ux">
+                                <rect key="frame" x="612" y="928" width="132" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                                <connections>
+                                    <segue destination="bCK-v6-rL3" kind="show" id="NfR-N4-xHa"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -4020,18 +4375,26 @@
                                 <rect key="frame" x="0.0" y="-14" width="768" height="1057"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7pS-QR-rU0">
-                                <rect key="frame" x="289" y="906" width="191" height="132"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="flechaFORW"/>
-                                <connections>
-                                    <segue destination="oJX-KZ-GyQ" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="hx4-sS-NmS"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="myHouse" translatesAutoresizingMaskIntoConstraints="NO" id="v2I-uE-Ozv">
                                 <rect key="frame" x="248" y="261" width="295" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tN7-oX-4Fu">
+                                <rect key="frame" x="20" y="931" width="134" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" " image="flechaBACK"/>
+                                <connections>
+                                    <segue destination="dWA-TT-g8c" kind="show" id="Rzm-9g-4tT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dq1-UM-ZxA">
+                                <rect key="frame" x="612" y="931" width="132" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                                <connections>
+                                    <segue destination="oJX-KZ-GyQ" kind="show" id="8H6-tm-4Tc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -4074,6 +4437,41 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xCA-Wo-qmd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4013" y="6454"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Y30-Yf-WAY">
+            <objects>
+                <viewController id="P2e-Xp-FFd" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oV3-Dk-efm"/>
+                        <viewControllerLayoutGuide type="bottom" id="tsJ-PQ-YQ9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6Ic-a1-jKh">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y9h-zw-ZJG">
+                                <rect key="frame" x="269" y="736" width="191" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                                <connections>
+                                    <segue destination="dWA-TT-g8c" kind="show" id="WiW-Hj-4TR"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Animación para Geography" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zGH-J4-vWc">
+                                <rect key="frame" x="243" y="255" width="335" height="255"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.25490196078431371" blue="0.19215686274509802" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cQj-I3-Jf7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1084" y="6454"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="WYg-qJ-TgJ">
@@ -4129,7 +4527,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.081329414160000002" green="0.2120603003" blue="0.48563701920000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.66274509803921566" green="0.94509803921568625" blue="0.27843137254901962" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zj3-qC-VXd" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -4162,7 +4560,6 @@
         <image name="flechaBACK" width="484" height="336"/>
         <image name="flechaFORW" width="484" height="336"/>
         <image name="fondoFinleccion" width="539" height="693"/>
-        <image name="fondo_principal" width="1470" height="1890"/>
         <image name="foto1" width="400" height="267"/>
         <image name="foto2" width="400" height="295"/>
         <image name="foto3" width="400" height="267"/>
@@ -4243,10 +4640,37 @@
         <image name="yellow" width="120" height="455"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ja9-nF-GTc"/>
-        <segue reference="9Nd-Sh-Nsg"/>
-        <segue reference="rHE-kT-9zw"/>
-        <segue reference="bZ2-V2-R4Y"/>
-        <segue reference="TJ0-J7-zoq"/>
+        <segue reference="126-rD-hYG"/>
+        <segue reference="f3k-2v-0Rz"/>
+        <segue reference="TuG-g7-nf2"/>
+        <segue reference="AQy-rw-VeW"/>
+        <segue reference="ziu-pQ-iRv"/>
+        <segue reference="JoT-kg-c6M"/>
+        <segue reference="w4V-y2-7yI"/>
+        <segue reference="uIO-b8-Bwa"/>
+        <segue reference="cxu-bc-Pdg"/>
+        <segue reference="X4h-b7-QmA"/>
+        <segue reference="FcI-FD-JVT"/>
+        <segue reference="bGU-s8-WTr"/>
+        <segue reference="s8W-zh-C75"/>
+        <segue reference="fu8-P8-x8R"/>
+        <segue reference="gTj-kD-AfO"/>
+        <segue reference="Jri-lf-STk"/>
+        <segue reference="8vB-o4-9Xi"/>
+        <segue reference="RcP-Me-F7S"/>
+        <segue reference="8D3-M2-xQX"/>
+        <segue reference="V0H-ut-dPF"/>
+        <segue reference="XIX-Zy-Mid"/>
+        <segue reference="qj5-DP-0r8"/>
+        <segue reference="Z3d-sd-4aS"/>
+        <segue reference="pbr-md-SAa"/>
+        <segue reference="a6W-F9-n2R"/>
+        <segue reference="bR6-0t-ALG"/>
+        <segue reference="U4z-2L-XRw"/>
+        <segue reference="Rzm-9g-4tT"/>
+        <segue reference="QU1-hS-v7d"/>
+        <segue reference="b5i-DB-Ce3"/>
+        <segue reference="f8w-jh-MBV"/>
+        <segue reference="h01-5W-ogZ"/>
     </inferredMetricsTieBreakers>
 </document>
