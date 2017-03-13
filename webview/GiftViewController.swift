@@ -12,6 +12,8 @@ class GiftViewController: UIViewController {
     
     @IBOutlet var GifView: UIImageView!
     @IBOutlet var GifView2: UIImageView!
+    @IBOutlet var GifView3: UIImageView!
+    
     
     
     override func viewDidLoad() {
@@ -20,9 +22,11 @@ class GiftViewController: UIViewController {
         
         GifView.loadGif(name: "shower")
         GifView2.loadGif(name: "brushing")
+        GifView3.loadGif(name: "wasHand")
         
         GifView.alpha = 0
         GifView2.alpha = 0
+        GifView3.alpha = 0
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -35,10 +39,14 @@ class GiftViewController: UIViewController {
                 self.GifView2.alpha = 1
             }) { (true) in
                 
+                UIView.animate(withDuration: 6 , animations: {
+                    self.GifView3.alpha = 1
+                }) { (true) in
+                    }
             }
         }
+        
     }
-    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

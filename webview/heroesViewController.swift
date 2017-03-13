@@ -167,7 +167,7 @@ class heroesViewController: UIViewController {
             but5.stop()
         }
         if but6.isPlaying{
-            but5.stop()
+            but6.stop()
         }
     }
     

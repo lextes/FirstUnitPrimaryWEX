@@ -165,6 +165,7 @@ class MultipleSoundsBViewController: UIViewController {
         if but5.isPlaying{
             but5.stop()
         }
+        
     }
     
 }

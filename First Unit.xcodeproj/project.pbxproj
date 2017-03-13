@@ -24,6 +24,7 @@
 		8469F2031E646DD10005D4B6 /* Text3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8469F2021E646DD10005D4B6 /* Text3ViewController.swift */; };
 		8469F2051E646F8A0005D4B6 /* Draw2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8469F2041E646F8A0005D4B6 /* Draw2ViewController.swift */; };
 		8469F2071E647BA10005D4B6 /* Text3AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8469F2061E647BA10005D4B6 /* Text3AViewController.swift */; };
+		846ECA0E1E7742A10005259A /* wasHand.gif in Resources */ = {isa = PBXBuildFile; fileRef = 846ECA0D1E7742A10005259A /* wasHand.gif */; };
 		8485F0AF1E54D04A00C457DF /* MultipleSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8485F0AE1E54D04A00C457DF /* MultipleSoundsViewController.swift */; };
 		8485F0B11E54D1A300C457DF /* orchestral.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8485F0B01E54D1A300C457DF /* orchestral.mp3 */; };
 		8485F0B51E54D44F00C457DF /* starlight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8485F0B41E54D44F00C457DF /* starlight.mp3 */; };
@@ -92,6 +93,7 @@
 		8469F2021E646DD10005D4B6 /* Text3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Text3ViewController.swift; path = webview/Text3ViewController.swift; sourceTree = SOURCE_ROOT; };
 		8469F2041E646F8A0005D4B6 /* Draw2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Draw2ViewController.swift; path = webview/Draw2ViewController.swift; sourceTree = SOURCE_ROOT; };
 		8469F2061E647BA10005D4B6 /* Text3AViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Text3AViewController.swift; path = webview/Text3AViewController.swift; sourceTree = SOURCE_ROOT; };
+		846ECA0D1E7742A10005259A /* wasHand.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = wasHand.gif; sourceTree = "<group>"; };
 		8485F0AE1E54D04A00C457DF /* MultipleSoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleSoundsViewController.swift; sourceTree = "<group>"; };
 		8485F0B01E54D1A300C457DF /* orchestral.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = orchestral.mp3; sourceTree = "<group>"; };
 		8485F0B41E54D44F00C457DF /* starlight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = starlight.mp3; sourceTree = "<group>"; };
@@ -239,6 +241,7 @@
 				849B24BA1E707022001F2980 /* shower.gif */,
 				849B24B81E707000001F2980 /* brushing.gif */,
 				849797E61E709C0A0048CA27 /* congo.gif */,
+				846ECA0D1E7742A10005259A /* wasHand.gif */,
 				849B24B41E706E60001F2980 /* Git+Swift.swift */,
 			);
 			name = Gifs;
@@ -393,6 +396,7 @@
 				84AE55991E65D20D0093AC51 /* magico.mp3 in Resources */,
 				849797E71E709C0A0048CA27 /* congo.gif in Resources */,
 				84AE559B1E65D2390093AC51 /* trin.mp3 in Resources */,
+				846ECA0E1E7742A10005259A /* wasHand.gif in Resources */,
 				844D2B9A1E687D8200C7BD52 /* radio.mp3 in Resources */,
 				844D2B861E6863CF00C7BD52 /* agustinMelgar.m4a in Resources */,
 				84B978321E5F79BD00991511 /* up.mp3 in Resources */,
