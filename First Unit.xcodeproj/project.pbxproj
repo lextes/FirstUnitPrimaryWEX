@@ -28,6 +28,7 @@
 		8485F0AF1E54D04A00C457DF /* MultipleSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8485F0AE1E54D04A00C457DF /* MultipleSoundsViewController.swift */; };
 		8485F0B11E54D1A300C457DF /* orchestral.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8485F0B01E54D1A300C457DF /* orchestral.mp3 */; };
 		8485F0B51E54D44F00C457DF /* starlight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8485F0B41E54D44F00C457DF /* starlight.mp3 */; };
+		848F897D1E784976006AE839 /* nails.gif in Resources */ = {isa = PBXBuildFile; fileRef = 848F897C1E784976006AE839 /* nails.gif */; };
 		849797E51E709AFF0048CA27 /* Gif2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849797E41E709AFF0048CA27 /* Gif2ViewController.swift */; };
 		849797E71E709C0A0048CA27 /* congo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 849797E61E709C0A0048CA27 /* congo.gif */; };
 		849B24B51E706E60001F2980 /* Git+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B24B41E706E60001F2980 /* Git+Swift.swift */; };
@@ -97,6 +98,7 @@
 		8485F0AE1E54D04A00C457DF /* MultipleSoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleSoundsViewController.swift; sourceTree = "<group>"; };
 		8485F0B01E54D1A300C457DF /* orchestral.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = orchestral.mp3; sourceTree = "<group>"; };
 		8485F0B41E54D44F00C457DF /* starlight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = starlight.mp3; sourceTree = "<group>"; };
+		848F897C1E784976006AE839 /* nails.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = nails.gif; sourceTree = "<group>"; };
 		849797E41E709AFF0048CA27 /* Gif2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Gif2ViewController.swift; path = webview/Gif2ViewController.swift; sourceTree = SOURCE_ROOT; };
 		849797E61E709C0A0048CA27 /* congo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = congo.gif; sourceTree = "<group>"; };
 		849B24B41E706E60001F2980 /* Git+Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Git+Swift.swift"; path = "webview/Git+Swift.swift"; sourceTree = SOURCE_ROOT; };
@@ -241,6 +243,7 @@
 				849B24BA1E707022001F2980 /* shower.gif */,
 				849B24B81E707000001F2980 /* brushing.gif */,
 				849797E61E709C0A0048CA27 /* congo.gif */,
+				848F897C1E784976006AE839 /* nails.gif */,
 				846ECA0D1E7742A10005259A /* wasHand.gif */,
 				849B24B41E706E60001F2980 /* Git+Swift.swift */,
 			);
@@ -402,6 +405,7 @@
 				84B978321E5F79BD00991511 /* up.mp3 in Resources */,
 				844D2B8B1E6863DE00C7BD52 /* fernandoMontes.m4a in Resources */,
 				8423F0D31E5BFBAF00F12335 /* animated3.html in Resources */,
+				848F897D1E784976006AE839 /* nails.gif in Resources */,
 				8423F0D41E5BFBAF00F12335 /* animated3.hyperesources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
