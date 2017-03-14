@@ -44,7 +44,7 @@ Launch</string>
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="J13-eZ-1zU" kind="show" id="qkX-oC-zsK"/>
+                                    <segue destination="J13-eZ-1zU" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="qkX-oC-zsK"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -67,18 +67,15 @@ Launch</string>
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Cuadro de log in" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zaG-2L-Ebs">
-                                <rect key="frame" x="217" y="293" width="269" height="255"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Recuadro2" translatesAutoresizingMaskIntoConstraints="NO" id="VJN-zt-bYv">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1016"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tcm-T2-2hV">
-                                <rect key="frame" x="491" y="764" width="188" height="108"/>
+                                <rect key="frame" x="525" y="693" width="103" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
-                                <state key="normal" title=" Next">
+                                <state key="normal" title=" ">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -86,12 +83,11 @@ Launch</string>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.66115835171144222" green="0.94348958329999999" blue="0.28018429204376449" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qkG-3m-OiJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1383" y="158"/>
+            <point key="canvasLocation" x="-1383.59375" y="157.6171875"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="CC0-oQ-W1p">
@@ -1061,15 +1057,6 @@ Launch</string>
                                 <rect key="frame" x="-34" y="-35" width="802" height="1059"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XKd-5t-L9Y">
-                                <rect key="frame" x="438" y="700" width="154" height="69"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.43956741690635681" green="0.84001761674880981" blue="0.11150351911783218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="30"/>
-                                <state key="normal" title="Nails">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8iy-dr-Ian">
                                 <rect key="frame" x="102" y="314" width="237" height="176"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1098,6 +1085,10 @@ Launch</string>
                                 <rect key="frame" x="102" y="613" width="237" height="177"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fRx-no-gyT">
+                                <rect key="frame" x="394" y="613" width="240" height="177"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -1105,6 +1096,7 @@ Launch</string>
                         <outlet property="GifView" destination="8iy-dr-Ian" id="hrz-BJ-zu7"/>
                         <outlet property="GifView2" destination="PTK-U0-P5Q" id="xdq-fb-15h"/>
                         <outlet property="GifView3" destination="2zp-8t-WTY" id="VIg-J9-HP8"/>
+                        <outlet property="GifView4" destination="fRx-no-gyT" id="fNh-fM-8PN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OL3-D7-XGm" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -4542,6 +4534,7 @@ Launch</string>
         <image name="Geojuanita" width="274" height="195"/>
         <image name="Geomother" width="275" height="196"/>
         <image name="Image6" width="472" height="378"/>
+        <image name="Recuadro2" width="1470" height="1890"/>
         <image name="ResetIcon" width="128" height="128"/>
         <image name="VIVAMexico" width="299" height="42"/>
         <image name="W LOGO" width="442" height="374"/>

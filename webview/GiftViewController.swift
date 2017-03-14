@@ -13,7 +13,8 @@ class GiftViewController: UIViewController {
     @IBOutlet var GifView: UIImageView!
     @IBOutlet var GifView2: UIImageView!
     @IBOutlet var GifView3: UIImageView!
-    
+    @IBOutlet var GifView4: UIImageView!
+
     
     
     override func viewDidLoad() {
@@ -23,26 +24,32 @@ class GiftViewController: UIViewController {
         GifView.loadGif(name: "shower")
         GifView2.loadGif(name: "brushing")
         GifView3.loadGif(name: "wasHand")
+        GifView4.loadGif(name: "nails")
+
         
         GifView.alpha = 0
         GifView2.alpha = 0
         GifView3.alpha = 0
+        GifView4.alpha = 0
+
     }
     
     override func viewDidAppear(_ animated: Bool) {
         
         
-        UIView.animate(withDuration: 6 , animations: {
+        UIView.animate(withDuration: 3 , animations: {
             self.GifView.alpha = 1
         }) { (true) in
-            UIView.animate(withDuration: 6 , animations: {
+            UIView.animate(withDuration: 3 , animations: {
                 self.GifView2.alpha = 1
             }) { (true) in
-                
-                UIView.animate(withDuration: 6 , animations: {
+                UIView.animate(withDuration: 3 , animations: {
                     self.GifView3.alpha = 1
                 }) { (true) in
-                    }
+                    UIView.animate(withDuration: 3 , animations: {
+                        self.GifView4.alpha = 1
+                    })
+                }
             }
         }
         
