@@ -130,73 +130,49 @@ Launch</string>
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="a lesson" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Xa-Wm-Ho6">
-                                <rect key="frame" x="88" y="560" width="592" height="80"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Recuadro3" translatesAutoresizingMaskIntoConstraints="NO" id="HCN-Xg-xA3">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jIC-De-WhS">
-                                <rect key="frame" x="82" y="756" width="201" height="122"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jIC-De-WhS">
+                                <rect key="frame" x="196" y="574" width="119" height="118"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.42002864090338166" green="0.67062297889167366" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="50"/>
-                                <state key="normal" title="1">
+                                <state key="normal" title=" " image="boton1_science">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="xNZ-6i-2Bs" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="3Yg-7e-B1S"/>
+                                    <segue destination="xNZ-6i-2Bs" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="hjn-TX-6cZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wk5-Kb-bXG">
-                                <rect key="frame" x="284" y="756" width="201" height="122"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8bt-0E-2v5">
+                                <rect key="frame" x="325" y="574" width="119" height="118"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.94348958329999999" green="0.61213284269322188" blue="0.92215380299850269" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="50"/>
-                                <state key="normal" title="2">
+                                <state key="normal" title=" " image="boton2_science">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="myO-lp-Fcf" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="tSY-mp-R2K"/>
+                                    <segue destination="myO-lp-Fcf" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="skY-p5-tha"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n1s-AQ-OGZ">
-                                <rect key="frame" x="88" y="375" width="592" height="119"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6kd-zS-KRa">
+                                <rect key="frame" x="452" y="574" width="119" height="118"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <state key="normal" title=" " image="boton3_science">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="JsI-ds-M2w" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="CES-Ik-zK7"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CAy-sl-S0y">
-                                <rect key="frame" x="293" y="52" width="182" height="114"/>
+                                <rect key="frame" x="293" y="713" width="182" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="flechaBACK"/>
                                 <connections>
                                     <segue destination="VEb-de-MiY" kind="show" id="imS-gN-uuX"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I9l-4e-KpV">
-                                <rect key="frame" x="485" y="756" width="201" height="122"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.73510262489282074" green="0.46859614582656606" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="50"/>
-                                <state key="normal" title="3">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="JsI-ds-M2w" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="p2m-Aw-Zl3"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Science Unit 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hVm-0U-ins">
-                                <rect key="frame" x="88" y="174" width="627" height="260"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.66274509803921566" green="0.94509803921568625" blue="0.27843137254901962" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cqo-qx-7Ns" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -766,12 +742,12 @@ Launch</string>
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EndScienceLess1" translatesAutoresizingMaskIntoConstraints="NO" id="8Mh-Io-Kw1">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondoFinleccion" translatesAutoresizingMaskIntoConstraints="NO" id="8Mh-Io-Kw1">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zKK-cC-Lbu">
-                                <rect key="frame" x="440" y="734" width="263" height="189"/>
+                                <rect key="frame" x="309" y="851" width="263" height="189"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaBACK"/>
                                 <connections>
@@ -4487,7 +4463,6 @@ Launch</string>
         </scene>
     </scenes>
     <resources>
-        <image name="EndScienceLess1" width="1000" height="1286"/>
         <image name="Geobrother" width="274" height="195"/>
         <image name="Geofather" width="274" height="196"/>
         <image name="Geojuanita" width="274" height="195"/>
@@ -4495,6 +4470,7 @@ Launch</string>
         <image name="Image6" width="472" height="378"/>
         <image name="Recuadro1" width="1470" height="1890"/>
         <image name="Recuadro2" width="1417" height="1890"/>
+        <image name="Recuadro3" width="1417" height="1890"/>
         <image name="ResetIcon" width="128" height="128"/>
         <image name="VIVAMexico" width="299" height="42"/>
         <image name="W LOGO" width="442" height="374"/>
@@ -4507,6 +4483,9 @@ Launch</string>
         <image name="back_from" width="238" height="137"/>
         <image name="black" width="119" height="454"/>
         <image name="blue" width="120" height="456"/>
+        <image name="boton1_science" width="261" height="265"/>
+        <image name="boton2_science" width="261" height="265"/>
+        <image name="boton3_science" width="261" height="265"/>
         <image name="camera" width="102" height="220"/>
         <image name="castle" width="251" height="161"/>
         <image name="cuadroFiesta" width="629" height="404"/>
@@ -4602,10 +4581,13 @@ Launch</string>
         <segue reference="qj5-DP-0r8"/>
         <segue reference="nVs-aD-mZX"/>
         <segue reference="828-Ap-fww"/>
-        <segue reference="3Yg-7e-B1S"/>
-        <segue reference="Z3d-sd-4aS"/>
-        <segue reference="p2m-Aw-Zl3"/>
+        <segue reference="hjn-TX-6cZ"/>
+        <segue reference="ja9-nF-GTc"/>
+        <segue reference="a6W-F9-n2R"/>
+        <segue reference="bR6-0t-ALG"/>
+        <segue reference="skY-p5-tha"/>
         <segue reference="imS-gN-uuX"/>
+        <segue reference="CES-Ik-zK7"/>
         <segue reference="Y56-pI-kYR"/>
         <segue reference="ipM-zM-f61"/>
         <segue reference="TxC-hg-eEO"/>
@@ -4616,14 +4598,11 @@ Launch</string>
         <segue reference="GCE-FD-5Cm"/>
         <segue reference="JoT-kg-c6M"/>
         <segue reference="gTj-kD-AfO"/>
-        <segue reference="fu8-P8-x8R"/>
         <segue reference="8vB-o4-9Xi"/>
         <segue reference="Jri-lf-STk"/>
         <segue reference="RcP-Me-F7S"/>
         <segue reference="126-rD-hYG"/>
         <segue reference="f3k-2v-0Rz"/>
-        <segue reference="a6W-F9-n2R"/>
-        <segue reference="bR6-0t-ALG"/>
         <segue reference="cxu-bc-Pdg"/>
         <segue reference="f8w-jh-MBV"/>
         <segue reference="b5i-DB-Ce3"/>
