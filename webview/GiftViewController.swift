@@ -37,16 +37,16 @@ class GiftViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         
         
-        UIView.animate(withDuration: 3 , animations: {
+        UIView.animate(withDuration: 2 , animations: {
             self.GifView.alpha = 1
         }) { (true) in
-            UIView.animate(withDuration: 3 , animations: {
+            UIView.animate(withDuration: 2 , animations: {
                 self.GifView2.alpha = 1
             }) { (true) in
-                UIView.animate(withDuration: 3 , animations: {
+                UIView.animate(withDuration: 2 , animations: {
                     self.GifView3.alpha = 1
                 }) { (true) in
-                    UIView.animate(withDuration: 3 , animations: {
+                    UIView.animate(withDuration: 2 , animations: {
                         self.GifView4.alpha = 1
                     })
                 }
