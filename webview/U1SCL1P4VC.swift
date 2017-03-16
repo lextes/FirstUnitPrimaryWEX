@@ -1,6 +1,6 @@
 //
-//  DrawViewController.swift
-//  Draw 
+//  U1SCL1P4VC.swift
+//  Unit1
 //
 //  Created by roycetanjiashing on 17/9/16.
 //  Copyright © 2016 examplecompany. All rights reserved.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DrawViewController: UIViewController {
+class U1SCL1P4VC: UIViewController {
     
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet var toolIcon: UIButton!
