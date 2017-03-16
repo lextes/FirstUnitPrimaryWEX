@@ -10,6 +10,7 @@ import UIKit
 
 class animated1: UIViewController {
     
+    // Este se conecta con el webView y listo
     
     @IBOutlet var webView: UIWebView!
     
